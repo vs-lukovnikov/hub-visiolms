@@ -1,0 +1,6 @@
+name: Semantic Menu
+core: 8.x
+description: Menu tweaks.
+package: Semantic
+type: module
+version: VERSION

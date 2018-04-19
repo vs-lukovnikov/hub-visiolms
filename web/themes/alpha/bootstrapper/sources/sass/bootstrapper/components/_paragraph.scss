@@ -1,0 +1,19 @@
+
+p {
+  @include line-height(1.5);
+}
+
+// Populate font sizes for paragraphs.
+@include font-size-populate($font-size-paragraph-map, 'xs');
+@include font-size-populate($font-size-paragraph-map, 'sm');
+@include font-size-populate($font-size-paragraph-map, 'md');
+@include font-size-populate($font-size-paragraph-map, 'lg');
+@include font-size-populate($font-size-paragraph-map, 'xl');
+@include font-size-populate($font-size-paragraph-map, 'xxl');
+
+@include font-size-tag-populate($font-size-paragraph-map, ('p', 'li'), 'xs');
+@include font-size-tag-populate($font-size-paragraph-map, ('p', 'li'), 'sm');
+@include font-size-tag-populate($font-size-paragraph-map, ('p', 'li'), 'md');
+@include font-size-tag-populate($font-size-paragraph-map, ('p', 'li'), 'lg');
+@include font-size-tag-populate($font-size-paragraph-map, ('p', 'li'), 'xl');
+@include font-size-tag-populate($font-size-paragraph-map, ('p', 'li'), 'xxl');

@@ -1,0 +1,67 @@
+@import "../abstractions/map";
+@import "../abstractions/color";
+@import "color-map";
+
+$color-map : (
+  "white" : (
+    "base": "white",
+    "shade": false,
+  ),
+  "black" : (
+    "base": "black",
+    "shade": false,
+  ),
+  "grey" : (
+    "base": "grey",
+    "shade": "700",
+    "derivatives": (
+      "dark": "900",
+      "light1": "300",
+      "light2": "100",
+    ),
+  ),
+  "orange" : (
+    "base": "orange",
+    "shade": "600",
+  ),
+);
+
+
+// Main colors.
+$color-black: color-get("black");
+$color-white: color-get("white");
+
+$color-grey: color-get("grey", '700');
+
+$color-blue: color-get("light-blue", '400');
+
+$color-orange: color-get("orange", '600');
+
+// Backgrounds.
+$color-bg-black: $color-black;
+$color-bg-white: $color-white;
+
+$color-bg-grey: $color-grey;
+
+$color-bg-blue: $color-blue;
+
+$color-bg-orange: $color-orange;
+
+
+// Text colors.
+$color-font-base: color-get("grey", '900');
+$color-font-link: $color-blue;
+
+$color-font-black: $color-black;
+$color-font-white: $color-white;
+
+$color-font-grey: $color-grey;
+
+$color-font-blue: $color-blue;
+
+$color-font-orange: $color-orange;
+
+// Link colors.
+$color-link-default: color-get("blue", '500');
+$color-link-hover: color-get("blue", '700');
+

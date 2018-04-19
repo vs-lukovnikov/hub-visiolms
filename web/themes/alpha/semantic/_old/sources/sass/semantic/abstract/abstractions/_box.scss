@@ -1,0 +1,15 @@
+// $box-model: [ content-box | border-box | padding-box ]
+@mixin box-sizing($box-model: border-box) {
+  @if type-of($box-model) == "string" {
+    $box-model: unquote($box-model);
+  }
+
+  -webkit-box-sizing: $box-model;
+  -moz-box-sizing: $box-model;
+  box-sizing: $box-model;
+}
+
+
+@mixin content-box {
+  @include box-sizing(content-box);
+}

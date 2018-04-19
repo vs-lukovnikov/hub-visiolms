@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* line 1, sources/sass/semantic/components/form/checkbox.scss */
+.form-checkboxes .form-item, .form-radios .form-item {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* line 2, sources/sass/semantic/components/form/file-input.scss */
+.input-file input[type="file"] {
+  display: none;
+}
+
+/* line 7, sources/sass/semantic/components/form/file-input.scss */
+.button-upload-file {
+  display: none !important;
+}
+
+/* line 11, sources/sass/semantic/components/form/file-input.scss */
+.button-remove-file {
+  margin-left: 0.5rem !important;
+}
+
+/* line 1, sources/sass/semantic/components/form/select.scss */
+.ui.selection.dropdown {
+  min-height: 100%;
+}
+
+/* line 1, sources/sass/semantic/components/content/_blockquote.scss */
+blockquote {
+  background: #f9f9f9;
+  border-left: 0.3rem solid #ccc;
+  margin: 1.5rem 0;
+  padding: 0.5rem;
+  quotes: "“" "”" "‘" "’";
+}
+
+/* line 8, sources/sass/semantic/components/content/_blockquote.scss */
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4rem;
+  line-height: 0.1rem;
+  margin-right: 0.25rem;
+  vertical-align: -1.4rem;
+}
+
+/* line 17, sources/sass/semantic/components/content/_blockquote.scss */
+blockquote p {
+  display: inline;
+}
+/*# sourceMappingURL=components.css.map */

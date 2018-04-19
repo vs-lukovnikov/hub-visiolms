@@ -1,0 +1,11 @@
+entity.visiolms_unit.add_page:
+  route_name: entity.visiolms_unit.add_page
+  title: 'Add unit'
+  appears_on:
+    - entity.visiolms_unit.collection
+
+entity.visiolms_unit_type.add_form:
+  route_name: entity.visiolms_unit_type.add_form
+  title: 'Add unit type'
+  appears_on:
+    - entity.visiolms_unit_type.collection

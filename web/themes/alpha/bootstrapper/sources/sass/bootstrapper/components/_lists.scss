@@ -1,0 +1,34 @@
+// Styles for ordered and unordered lists.
+
+// Styles for all lists.
+ol, ul, dl {
+  padding-left: 0;
+
+  li {
+    @include line-height(1.5);
+  }
+
+}
+
+// Styles for unordered lists.
+ul.links, ul.tips {
+  li {
+    margin-left: 24px;
+  }
+}
+
+// Styles for inline unordered lists.
+ul.inline li {
+  margin: 0 auto;
+}
+
+// Styles for item lists.
+.item-list {
+
+  ul, ol, dl {
+    margin: 0 0 16px 0;
+  }
+
+}
+
+

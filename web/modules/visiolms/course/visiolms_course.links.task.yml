@@ -1,0 +1,11 @@
+entity.visiolms_course.collection:
+  route_name: entity.visiolms_course.collection
+  base_route: entity.visiolms_course.collection
+  title: Courses
+  weight: 10
+
+entity.visiolms_course_type.collection:
+  route_name: entity.visiolms_course_type.collection
+  base_route: entity.visiolms_course.collection
+  title: Types
+  weight: 20

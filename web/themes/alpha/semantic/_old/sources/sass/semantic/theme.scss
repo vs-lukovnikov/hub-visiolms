@@ -1,0 +1,30 @@
+// ====================
+// https://www.drupal.org/node/1887918#separate-concerns
+//
+// Purely visual styling, such as border, box-shadow, colors and backgrounds, font properties, etc.
+// Ideally, these should be separated enough from a component’s structure to be “swappable”, and omitting these entirely
+// should not break the component’s functionality or basic usability.
+// ====================
+
+// Import abstractions.
+// Import variables first because they can contain settings for external libraries.
+@import 'abstract/init';
+@import 'abstract/variables';
+@import 'abstract/abstractions';
+
+// Import external libraries.
+
+
+// Import sass items.
+
+// Forms.
+@import 'theme/form/user-login';
+
+// Blocks.
+@import 'theme/block/branding';
+@import 'theme/block/menu-main';
+@import 'theme/block/system_messages';
+@import 'theme/block/page-title';
+
+// Pages.
+

@@ -1,0 +1,27 @@
+uuid: f1aad26e-f544-41bd-ab95-63417c5c3ab8
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - system
+  theme:
+    - semantic
+third_party_settings:
+  block_class:
+    classes: 'four wide column'
+id: sitebranding
+theme: semantic
+region: header_main
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

@@ -1,0 +1,38 @@
+bootstrapper.fonts:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,600,600italic,700,700italic': { type: external }
+
+bootstrapper.bootstrap.js:
+  js:
+    assets/vendor/popper.js/dist/umd/popper.min.js: { minified: true }
+    assets/vendor/bootstrap/dist/js/bootstrap.min.js: { minified: true }
+  dependencies:
+    - core/jquery
+    - core/drupal
+
+bootstrapper.bootstrap.css:
+  css:
+    base:
+      assets/css/bootstrap.css: {}
+
+bootstrapper.js:
+  js:
+    assets/js/bootstrapper.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+
+bootstrapper.css:
+  css:
+    base:
+      assets/css/base.css: {}
+    layout:
+      assets/css/layout.css: {}
+    component:
+      assets/css/components.css: {}
+    state:
+      assets/css/state.css: {}
+    theme:
+      assets/css/theme.css: {}

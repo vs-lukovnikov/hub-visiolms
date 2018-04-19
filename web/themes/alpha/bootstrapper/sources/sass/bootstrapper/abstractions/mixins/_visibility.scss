@@ -1,0 +1,64 @@
+@mixin text-invisible {
+  text-indent: -9999px;
+}
+
+@mixin text-visible {
+  text-indent: inherit;
+}
+
+@mixin element-hidden {
+  position: absolute;
+  left: -9999px;
+  visibility: hidden;
+}
+
+@mixin element-displayed {
+  position: inherit;
+  left: inherit;
+  visibility: visible;
+}
+
+@mixin block-hidden {
+  display: none;
+  visibility: hidden;
+}
+
+@mixin block-displayed {
+  display: block;
+  visibility: visible;
+}
+
+@mixin inline-displayed {
+  display: inline;
+  visibility: visible;
+}
+
+@mixin inline-block-displayed {
+  display: inline-block;
+  visibility: visible;
+}
+
+@mixin element-invisible {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+  height: 1px;
+}
+
+@mixin element-visible {
+  position: inherit !important;
+  clip: inherit;
+  overflow: inherit;
+  height: inherit;
+}
+
+@mixin element-focusable {
+  &:active,
+  &:focus {
+    position: static !important;
+    clip: auto;
+    overflow: visible;
+    height: auto;
+  }
+}

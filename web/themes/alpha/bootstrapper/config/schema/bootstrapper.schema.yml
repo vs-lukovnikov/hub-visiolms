@@ -1,0 +1,3 @@
+bootstrapper.settings:
+  type: theme_settings
+  label: 'Bootstrapper Settings'

@@ -1,0 +1,12 @@
+uuid: e50d7c11-f184-40e7-bec9-5085c88ed368
+langcode: en
+status: true
+dependencies: {  }
+id: lesson_page
+label: 'Lesson page'
+description: ''
+use_admin_theme: false
+path: '/lesson/{visiolms_lesson}'
+access_logic: and
+access_conditions: {  }
+parameters: {  }

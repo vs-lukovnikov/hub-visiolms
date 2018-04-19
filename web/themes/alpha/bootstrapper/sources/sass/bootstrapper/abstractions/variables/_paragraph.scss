@@ -1,0 +1,59 @@
+// ====================
+// Paragraph font sizes.
+// ====================
+$font-size-paragraph-map: (
+  'xs': (
+    'base': $font-size-base-px,
+    'math' : 'arithmetic',
+    'block-tag' : 'p',
+    'multiplier': ('p0': -1px, 'p1': 0px, 'p2': 1px, 'p3': 2px, 'p4': 4px, 'p5': 8px, 'p6': 12px),
+    'margin': (
+      'bottom': ('p0': 0.5, 'p1': 0.5, 'p2': 0.75, 'p3': 1, 'p4': 1.25, 'p5': 1.5, 'p6': 1.75)
+    )
+  ),
+  'sm': (
+    'base': $font-size-base-px,
+    'math' : 'arithmetic',
+    'block-tag' : 'p',
+    'multiplier': ('p0': -2px, 'p1': 0px, 'p2': 2px, 'p3': 4px, 'p4': 8px, 'p5': 12px, 'p6': 16px),
+    'margin': (
+      'bottom': ('p0': 0.5, 'p1': 0.75, 'p2': 1, 'p3': 1.5, 'p4': 1.875, 'p5': 2.25, 'p6': 2.625)
+    )
+  ),
+  'md': (
+    'base': $font-size-base-px,
+    'math' : 'arithmetic',
+    'block-tag' : 'p',
+    'multiplier': ('p0': -2px, 'p1': 0px, 'p2': 2px, 'p3': 4px, 'p4': 8px, 'p5': 12px, 'p6': 20px),
+    'margin': (
+      'bottom': ('p0': 0.5, 'p1': 1, 'p2': 1.5, 'p3': 2, 'p4': 2.5, 'p5': 3, 'p6': 3.5)
+    )
+  ),
+  'lg': (
+    'base': $font-size-base-px,
+    'math' : 'arithmetic',
+    'block-tag' : 'p',
+    'multiplier': ('p0': -2px, 'p1': 0px, 'p2': 2px, 'p3': 4px, 'p4': 8px, 'p5': 12px, 'p6': 20px),
+    'margin': (
+      'bottom': ('p0': 0.5, 'p1': 1, 'p2': 1.5, 'p3': 2, 'p4': 2.5, 'p5': 3, 'p6': 3.5)
+    )
+  ),
+  'xl': (
+    'base': $font-size-base-px,
+    'math' : 'arithmetic',
+    'block-tag' : 'p',
+    'multiplier': ('p0': -2px, 'p1': 0px, 'p2': 2px, 'p3': 4px, 'p4': 8px, 'p5': 12px, 'p6': 20px),
+    'margin': (
+      'bottom': ('p0': 0.5, 'p1': 1, 'p2': 1.5, 'p3': 2, 'p4': 2.5, 'p5': 3, 'p6': 3.5)
+    )
+  ),
+  'xxl': (
+    'base': $font-size-base-px,
+    'math' : 'arithmetic',
+    'block-tag' : 'p',
+    'multiplier': ('p0': -2px, 'p1': 0px, 'p2': 2px, 'p3': 4px, 'p4': 8px, 'p5': 12px, 'p6': 20px),
+    'margin': (
+      'bottom': ('p0': 0.5, 'p1': 1, 'p2': 1.5, 'p3': 2, 'p4': 2.5, 'p5': 3, 'p6': 3.5)
+    )
+  )
+) !default;

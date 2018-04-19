@@ -1,0 +1,90 @@
+@mixin font-size($font-size) {
+  font-size: $font-size;
+}
+
+@mixin font-size-generate($bp: '', $size: '', $fs-map: $font-size-paragraph-map) {
+  font-size: font-size-get($fs-map, $bp, $size);
+}
+
+@mixin font-size-populate($map: (), $bp: '') {
+  // @debug 'font-size-populate' - $bp;
+  $size-map: map_get($map, $bp);
+  $base: map_get($size-map, 'base');
+  $math: map_get($size-map, 'math');
+  $tags: map_get($size-map, 'tags');
+  $block-tag: map_get($size-map, 'block-tag');
+  $margins: map_deep_get($size-map, 'margin', 'bottom');
+  $multipliers: map_get($size-map, 'multiplier');
+  @each $multiplier-name, $multiplier in $multipliers {
+    $fs: 0px;
+    $tag: false;
+    @if(type_of($tags) == 'map') {
+      $tag: map_get($tags, $multiplier-name);
+    }
+    @if($math == 'arithmetic') {
+      $fs: $base + $multiplier;
+    }
+    @else if($math == 'geometric') {
+      $fs: $base * $multiplier;
+    }
+    // @debug #{$tag} - #{$fs};
+
+    @include media-breakpoint-up($bp) {
+      @if($tag) {
+        // @debug #{$tag} - #{$fs};
+        #{$tag} {
+          @include font-size($fs);
+          margin-bottom: $base * map_get($margins, $multiplier-name);
+        }
+      }
+      .#{$multiplier-name} {
+        @include font-size($fs);
+        margin-bottom: $base * map_get($margins, $multiplier-name);
+      }
+      @if ($block-tag and type_of($block-tag) == 'string') {
+        .#{$multiplier-name}-block #{$block-tag} {
+          @include font-size($fs);
+          margin-bottom: $base * map_get($margins, $multiplier-name);
+        }
+      }
+      .#{$multiplier-name}-#{$bp} {
+        @include font-size($fs);
+        margin-bottom: $base * map_get($margins, $multiplier-name);
+      }
+      @if ($block-tag and type_of($block-tag) == 'string') {
+        .#{$multiplier-name}-#{$bp}-block #{$block-tag} {
+          @include font-size($fs);
+          margin-bottom: $base * map_get($margins, $multiplier-name);
+        }
+      }
+    }
+  }
+}
+
+@mixin font-size-tag-populate($map:(), $tags:(), $bp: '', $context: 'text') {
+  $size-map: map_get($map, $bp);
+  $base: map_get($size-map, 'base');
+  $math: map_get($size-map, 'math');
+  $multipliers: map_get($size-map, 'multiplier');
+  @each $multiplier-name, $multiplier in $multipliers {
+    $fs: 0px;
+    @if($math == 'arithmetic') {
+      $fs: $base + $multiplier;
+    }
+    @else if($math == 'geometric') {
+      $fs: $base * $multiplier;
+    }
+    @include media-breakpoint-up($bp) {
+      .#{$multiplier-name}-#{$context} {
+        #{$tags} {
+          @include font-size($fs);
+        }
+      }
+      .#{$multiplier-name}-#{$bp}-#{$context} {
+        #{$tags} {
+          @include font-size($fs);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+// This function is exactly like 'map-get' except it goes deeper.
+// You pass the map or list as first argument and then an unlimited number of keys to be accessed.
+// If a key cannot be reached, the function aborts and returns 'null'.
+@function map-deep-get($map, $keys...) {
+  @each $key in $keys {
+    @if (type_of($map) == 'map') {
+      $map: map-get($map, $key);
+    }
+    @else if (type_of($map) == 'list') {
+      $map: nth($map, $key);
+    }
+    @else {
+      @return $map;
+    }
+  }
+
+  @return $map;
+}
+
+@function map-get-deep($map, $keys...) {
+  @return map-deep-get($map, $keys...);
+}
+
+@function map-set($map, $key, $value) {
+  $new: ($key: $value);
+  @return map-merge($map, $new);
+}

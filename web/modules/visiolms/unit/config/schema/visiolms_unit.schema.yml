@@ -1,0 +1,19 @@
+visiolms_unit.type.*:
+  type: config_entity
+  label: 'Unit type'
+  mapping:
+    id:
+      type: string
+      label: 'Machine-readable name'
+    label:
+      type: label
+      label: 'Name'
+    description:
+      type: text
+      label: 'Description'
+    help:
+      type: text
+      label: 'Explanation or submission guidelines'
+    new_revision:
+      type: boolean
+      label: 'Whether a new revision should be created by default'

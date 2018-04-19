@@ -1,0 +1,9 @@
+{
+  "name": "visiolms/core",
+  "type": "drupal-module-visiolms",
+  "description": "Core module.",
+  "require": {
+  },
+  "homepage": "https://alphawebgroup.com",
+  "license": "GPL-2.0+"
+}

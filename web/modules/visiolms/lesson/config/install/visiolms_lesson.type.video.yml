@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: video
+label: video
+description: 'Video lesson type.'
+help: ''
+new_revision: null

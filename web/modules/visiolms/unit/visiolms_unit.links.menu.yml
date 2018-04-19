@@ -1,0 +1,11 @@
+entity.visiolms_unit.collection:
+  title: Units
+  description: Administer units.
+  parent: system.admin_structure
+  route_name: entity.visiolms_unit.collection
+
+entity.visiolms_unit_type.collection:
+  title: Unit types
+  description: Configure the different types of units and their fields.
+  parent: entity.visiolms_unit.collection
+  route_name: entity.visiolms_unit_type.collection

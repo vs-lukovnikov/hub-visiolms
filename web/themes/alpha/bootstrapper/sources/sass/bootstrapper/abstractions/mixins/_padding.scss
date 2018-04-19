@@ -1,0 +1,48 @@
+@mixin padding($top: null, $right: null, $bottom: null, $left: null, $is-important: false) {
+  $important: null;
+  @if ($is-important) {
+    $important: !important;
+  }
+  @if (type_of($top) == number) {
+    padding-top: $top $important;
+  }
+  @if (type_of($right) == number) {
+    padding-right: $right $important;
+  }
+  @if (type_of($bottom) == number) {
+    padding-bottom: $bottom $important;
+  }
+  @if (type_of($left) == number) {
+    padding-left: $left $important;
+  }
+}
+
+@mixin padding-populate($list: null) {
+  @if (type_of($list) == 'map') {
+    @each $name, $padding in $list {
+      $vertical: nth($padding, 1);
+      $horizontal: nth($padding, 2);
+      .p-#{$name} {
+        @include padding($vertical, $horizontal, $vertical, $horizontal, true);
+      }
+      .py-#{$name} {
+        @include padding($vertical, null, $vertical, null, true);
+      }
+      .px-#{$name} {
+        @include padding(null, $horizontal, null, $horizontal, true);
+      }
+      .pt-#{$name} {
+        @include padding($vertical, null, null, null, true);
+      }
+      .pb-#{$name} {
+        @include padding(null, null, $vertical, null, true);
+      }
+      .pr-#{$name} {
+        @include padding(null, $horizontal, null, null, true);
+      }
+      .pl-#{$name} {
+        @include padding(null, null, null, $horizontal, true);
+      }
+    }
+  }
+}

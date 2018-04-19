@@ -1,0 +1,4 @@
+// Calculate rhythm units.
+@function rhythm($amount: 1) {
+  @return $amount * $font-size-base-px;
+}

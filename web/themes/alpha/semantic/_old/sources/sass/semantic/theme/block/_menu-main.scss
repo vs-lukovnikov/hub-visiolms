@@ -1,0 +1,26 @@
+.block--menu-main {
+
+  ul.menu--main {
+
+    &.ui.text.menu {
+      display: block;
+      margin: 0;
+      min-height: initial;
+
+      .item {
+        padding: 0 rhythm(1);
+        display: block;
+        float: left;
+
+        a {
+          color: inherit;
+          line-height: 1.5;
+        }
+
+      }
+
+    }
+
+  }
+
+}

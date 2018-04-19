@@ -1,0 +1,15 @@
+{
+  "name": "alphathemes/semantic",
+  "type": "drupal-theme-alpha",
+  "description": "Semantic theme based on Semantic UI.",
+  "homepage": "http://alphawebgroup.com",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Alpha Web Group",
+      "homepage":"http://alphawebgroup.com"
+    }
+  ],
+  "require": { },
+  "require-dev": { }
+}

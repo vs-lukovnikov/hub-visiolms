@@ -1,0 +1,12 @@
+{
+    "name": "adminer",
+    "private": true,
+    "version": "dev",
+    "description": "Adminer theme",
+    "ignore": [],
+    "dependencies": {
+        "semantic-ui": "semantic-ui#^2.2.7"
+    },
+    "devDependencies": {
+    }
+}

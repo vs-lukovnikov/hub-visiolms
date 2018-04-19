@@ -1,0 +1,41 @@
+@mixin link-obscure() {
+  color: inherit;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+@mixin link-hidden() {
+  color: inherit;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+@mixin link-underlined() {
+  color: inherit;
+  text-decoration: underline;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+@mixin links-child-obscure() {
+  & a {
+    @include link-obscure;
+  }
+}
+
+@mixin links-child-hidden() {
+  & a {
+    @include link-hidden;
+  }
+}
+
+@mixin links-child-underlined() {
+  & a {
+    @include link-underlined;
+  }
+}

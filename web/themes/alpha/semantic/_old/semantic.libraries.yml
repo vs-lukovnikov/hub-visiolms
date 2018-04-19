@@ -1,0 +1,28 @@
+semantic.ui:
+  css:
+    base:
+      sources/vendor/semantic-ui/dist/semantic.css: {}
+  js:
+    sources/vendor/semantic-ui/dist/semantic.js: {}
+  dependencies:
+    - core/jquery
+
+semantic.css:
+  css:
+    base:
+      assets/css/base.css: {}
+    layout:
+      assets/css/layout.css: {}
+    component:
+      assets/css/components.css: {}
+    state:
+      assets/css/state.css: {}
+    theme:
+      assets/css/theme.css: {}
+
+semantic.js:
+  js:
+    assets/js/semantic.js: {}
+  dependencies:
+    - core/jquery
+

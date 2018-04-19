@@ -1,0 +1,11 @@
+@mixin font-weight($font-weight) {
+  font-weight: $font-weight;
+}
+
+@mixin font-weight-populate($map) {
+  @each $font-weight in $map {
+    .fw-#{$font-weight} {
+      font-weight: $font-weight;
+    }
+  }
+}

@@ -1,0 +1,193 @@
+<?php
+
+use Drupal\Component\Utility\NestedArray;
+use Drupal\bootstrapper\Theme\Theme;
+use Drupal\bootstrapper\Theme\ThemeRegistry;
+
+/**
+ * Implements hook_html_head_alter().
+ *
+ * @param $header
+ */
+function bootstrapper_html_head_alter(&$header) {
+
+  // Cleartype.
+  $header['cleartype'] = [
+    '#type' => 'html_tag',
+    '#tag' => 'meta',
+    '#attributes' => [
+      'http-equiv' => "cleartype",
+      'content' => "on",
+    ],
+    '#weight' => -998,
+  ];
+
+  // Viewport.
+  $header['viewport'] = [
+    '#type' => 'html_tag',
+    '#tag' => 'meta',
+    '#attributes' => [
+      'content' => 'width=device-width, initial-scale=1, shrink-to-fit=no',
+      'name' => 'viewport',
+    ],
+    '#weight' => -997,
+  ];
+
+  // SEO Information.
+  $header['http-equiv'] = [
+    '#type' => 'html_tag',
+    '#tag' => 'meta',
+    '#attributes' => [
+      'http-equiv' => 'x-ua-compatible',
+      'content' => 'ie=edge',
+    ],
+    '#weight' => -996,
+  ];
+
+}
+
+/**
+ * Implements hook_theme_registry_alter().
+ *
+ * @param $registry
+ */
+function bootstrapper_theme_registry_alter(&$registry) {
+  $theme_id = \Drupal::theme()->getActiveTheme()->getName();
+
+  /** @var ThemeRegistry $registry_handler */
+  $registry_handler = new ThemeRegistry($registry, $theme_id);
+
+  /** @var Theme $theme_handler */
+  $theme_handler = new Theme($theme_id);
+
+  // Allows themers to split preprocess code across separate
+  // files to keep the main theme file clean. This is really fast because
+  // it uses the theme registry to cache the paths to the files that it finds.
+  $trail = $theme_handler->getThemeTrail();
+  foreach ($trail as $theme => $name) {
+    $registry_handler->registerPreprocessHooks($theme);
+  }
+}
+
+/**
+ * Implements hook_theme_suggestions_alter().
+ *
+ * @param array $suggestions
+ * @param array $variables
+ * @param $hook
+ */
+function bootstrapper_theme_suggestions_alter(array &$suggestions, array $variables, $hook) {
+
+  // Page.
+  if ($hook == 'page') {
+    // Page by route name.
+    $suggestions[] = $hook . '__' . str_replace('.', '_', \Drupal::routeMatch()->getRouteName());
+    if ($node = \Drupal::request()->attributes->get('node')) {
+      // If the variable $node is string, suspecting it's a node ID,
+      // then load node by ID.
+      if (is_string($node)) {
+        $node = \Drupal\node\Entity\Node::load($node);
+      }
+      array_splice($suggestions, 1, 0, $hook . '__' . 'node' . '__' . $node->bundle());
+    }
+  }
+
+  if ($hook == 'block') {
+    if (isset($variables['elements']['#configuration']['provider']) && isset($variables['elements']['#configuration']['view_mode'])) {
+      $suggestions[] = $hook . '__' . $variables['elements']['#configuration']['provider'] . '__' . $variables['elements']['#configuration']['view_mode'];
+    }
+  }
+
+  // Form suggestions.
+  if ($hook == 'form') {
+    // Form by form ID.
+    $suggestions[] = $hook . '__' . $variables['element']['#form_id'];
+  }
+
+  // Process suggestions for 'input' hooks.
+  if ($hook == 'input' && $variables['element']['#type'] != 'file') {
+    // Proposed suggestion.
+    $proposed_suggestion = $hook . '__' . $variables['element']['#type'];
+    // If suggestion does not exists.
+    if (!in_array($proposed_suggestion, $suggestions)) {
+      // Add the suggestion.
+      $suggestions[] = $proposed_suggestion;
+    }
+    // Get element name from 'element' array if it exists and set new theme suggestion.
+    if (!empty($variables['element']['#name'])) {
+      // Proposed suggestion.
+      $proposed_suggestion = $hook . '__' . $variables['element']['#type'] . '__' . $variables['element']['#name'];
+      // If suggestion does not exists.
+      if (!in_array($proposed_suggestion, $suggestions)) {
+        // Add the suggestion.
+        $suggestions[] = $proposed_suggestion;
+      }
+    }
+  }
+
+  // Menu local tasks.
+  if ($hook == 'menu_local_tasks') {
+    // Local tasks by route name.
+    $suggestions[] = $hook . '__' . str_replace('.', '_', \Drupal::routeMatch()
+        ->getRouteName());
+  }
+}
+
+/**
+ * {@inheritdoc}
+ */
+function bootstrapper_preprocess(&$variables, $hook, $info) {
+  // Get the theme object.
+  static $theme;
+  if (!isset($theme)) {
+    $theme = \Drupal::theme()->getActiveTheme();
+  }
+
+  // Get the theme settings.
+  static $theme_settings;
+  if (!isset($theme_settings)) {
+    $theme_settings = \Drupal::config($theme->getName() . '.settings')->get();
+
+    // Set the container class.
+    if (isset($theme_settings['container'])) {
+      switch ($theme_settings['container']['type']) {
+        case 'fluid':
+          $theme_settings['container']['class'] = 'container-fluid';
+          break;
+
+        case 'fixed':
+          $theme_settings['container']['class'] = 'container';
+          break;
+
+        case 'no':
+          $theme_settings['container']['class'] = '';
+          break;
+      }
+    }
+    else {
+      $theme_settings['container']['class'] = '';
+    }
+  }
+
+  // Adds a global "is_front" variable to all templates.
+  if (!isset($variables['is_front'])) {
+    $variables['is_front'] = \Drupal::service('path.matcher')->isFrontPage();
+  }
+
+  // Ensure that any default theme hook variables exist. Due to how theme
+  // hook suggestion alters work, the variables provided are from the
+  // original theme hook, not the suggestion.
+  if (isset($info['variables'])) {
+    $variables = NestedArray::mergeDeepArray([
+      $info['variables'],
+      $variables,
+    ], TRUE);
+  }
+
+  // Add active theme settings.
+  if (!isset($variables['theme'])) {
+    $variables['theme'] = [
+      'settings' => $theme_settings,
+    ];
+  }
+}

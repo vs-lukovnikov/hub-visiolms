@@ -1,0 +1,16 @@
+{
+  "name": "alphathemes/bootstrapper",
+  "type": "drupal-theme-alpha",
+  "description": "Bootstrapper theme.",
+  "homepage": "https://alphawebgroup.com",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Alpha Web Group",
+      "homepage":"https://alphawebgroup.com"
+    }
+  ],
+  "repositories": [],
+  "require": { },
+  "require-dev": { }
+}

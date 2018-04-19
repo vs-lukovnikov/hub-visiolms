@@ -1,0 +1,29 @@
+{#
+/**
+ * @file
+ * Theme override to display a region.
+ *
+ * Available variables:
+ * - content: The content for this region, typically blocks.
+ * - attributes: HTML attributes for the region div.
+ * - region: The name of the region variable as defined in the theme's
+ *   .info.yml file.
+ *
+ * @see template_preprocess_region()
+ *
+ * @ingroup templates
+ */
+#}
+{% set role = (region == 'sidebar_first' or region == 'sidebar_second') ? 'complementary' : 'region' %}
+{% set classes = ['region', 'region--' ~ region|clean_class] %}
+{% set content_classes = ['region--body'] %}
+
+{% block content %}
+  {% if content %}
+    <div{{ attributes.setAttribute('role', role).setAttribute('id', ('region-' ~ region)|clean_id).addClass(classes) }}>
+      <div{{ content_attributes.addClass(content_classes) }}>
+        {{ content }}
+      </div>
+    </div>
+  {% endif %}
+{% endblock content %}

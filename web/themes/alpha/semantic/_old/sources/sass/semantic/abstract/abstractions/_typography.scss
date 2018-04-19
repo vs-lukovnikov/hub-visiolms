@@ -1,0 +1,47 @@
+// Use REMs with a pixel fallback for font sizing.
+@mixin font-size($font-size) {
+  // font-size: $font-size;
+  font-size: rem($font-size);
+}
+
+@mixin font-weight($font-weight) {
+  font-weight: $font-weight;
+}
+
+@mixin line-height($line-height) {
+  line-height: percent($line-height);
+}
+
+// Mixin for font declaration.
+@mixin font($fs: null, $lh: null, $fw: null, $fst: null, $ff: null) {
+  @if ($fs) {
+    $fs: if(type-of($fs) == 'number' and unitless($fs), $fs*1rem, $fs);
+    @if (unit($fs) == 'px') {
+      @include font-size($fs);
+    }
+    @else {
+      font-size: $fs;
+    }
+  }
+
+  @if ($lh) {
+    @if (unit($lh) == 'px') {
+      @include line-height($lh);
+    }
+    @else {
+      line-height: $lh;
+    }
+  }
+
+  @if ($fw) {
+    font-weight: $fw;
+  }
+
+  @if ($fst) {
+    font-style: $fst;
+  }
+
+  @if ($ff) {
+    font-family: $ff;
+  }
+}

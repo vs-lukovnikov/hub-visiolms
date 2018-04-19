@@ -1,0 +1,87 @@
+uuid: b4d589e3-18ce-4d7f-8d3b-e0c0b4686fa3
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.course_page
+    - views.view.course_page_view
+  module:
+    - ctools_block
+    - panels
+    - views
+id: course_page-panels_variant-0
+label: 'Course Page'
+variant: panels_variant
+variant_settings:
+  blocks:
+    bb445c3c-c96f-42f2-9ab2-b7adde611f4c:
+      id: 'entity_field:visiolms_course:name'
+      label: 'Course title'
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: hidden
+        type: string
+        settings:
+          link_to_entity: false
+        third_party_settings: {  }
+        weight: 0
+      region: content
+      weight: -1
+      uuid: bb445c3c-c96f-42f2-9ab2-b7adde611f4c
+      context_mapping:
+        entity: visiolms_course
+      css_classes: ''
+      css_id: ''
+      css_styles: ''
+    c265818b-ca0a-4b96-babf-ffb2528bde56:
+      id: 'entity_field:visiolms_course:description'
+      label: 'Course Description'
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: hidden
+        type: text_default
+        settings: {  }
+        third_party_settings: {  }
+        weight: 0
+      region: content
+      weight: 0
+      uuid: c265818b-ca0a-4b96-babf-ffb2528bde56
+      context_mapping:
+        entity: visiolms_course
+      css_classes: ''
+      css_id: ''
+      css_styles: ''
+    adddf371-b2b4-46d5-9b2c-924f2115ee17:
+      id: 'views_block:course_page_view-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: '1'
+      region: content
+      weight: 1
+      uuid: adddf371-b2b4-46d5-9b2c-924f2115ee17
+      context_mapping: {  }
+      css_classes: ''
+      css_id: ''
+      css_styles: ''
+  id: panels_variant
+  uuid: 2c9e10b9-bb38-4cc7-b882-f1e04226159c
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: course_page-panels_variant-0
+  css_classes: ''
+  css_id: ''
+  css_styles: ''
+  builder: standard
+page: course_page
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

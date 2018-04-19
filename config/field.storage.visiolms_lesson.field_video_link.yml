@@ -1,0 +1,19 @@
+uuid: 5892fba6-6bd5-40a2-b785-4a22016c2a8e
+langcode: en
+status: true
+dependencies:
+  module:
+    - video_embed_field
+    - visiolms_lesson
+id: visiolms_lesson.field_video_link
+field_name: field_video_link
+entity_type: visiolms_lesson
+type: video_embed_field
+settings: {  }
+module: video_embed_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

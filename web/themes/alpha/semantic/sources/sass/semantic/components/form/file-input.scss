@@ -1,0 +1,13 @@
+.input-file {
+  input[type="file"] {
+    display: none;
+  }
+}
+
+.button-upload-file {
+  display: none !important;
+}
+
+.button-remove-file {
+  margin-left: 8px !important;
+}

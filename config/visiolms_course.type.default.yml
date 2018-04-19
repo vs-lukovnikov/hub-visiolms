@@ -1,0 +1,11 @@
+uuid: 7619bb74-8955-424d-b51b-daac5dc125db
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 9mvA2fiiLZ_0wDInaIAfhz5k1xQ9Ty4C3XMyiOciRH4
+id: default
+label: Default
+description: 'Default course type.'
+help: ''
+new_revision: null

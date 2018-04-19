@@ -1,0 +1,5 @@
+name: Semantic Styleguide
+type: module
+description: The style guide for Semantic theme.
+core: 8.x
+package: styleguide

@@ -1,0 +1,11 @@
+entity.visiolms_lesson.collection:
+  title: Lessons
+  description: Administer lessons.
+  parent: system.admin_structure
+  route_name: entity.visiolms_lesson.collection
+
+entity.visiolms_lesson_type.collection:
+  title: Lesson types
+  description: Configure the different types of lessons and their fields.
+  parent: entity.visiolms_lesson.collection
+  route_name: entity.visiolms_lesson_type.collection

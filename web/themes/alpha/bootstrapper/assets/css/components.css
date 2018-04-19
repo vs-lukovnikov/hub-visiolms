@@ -1,0 +1,3144 @@
+/* line 2, sources/sass/bootstrapper/components/_heading.scss */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: inherit;
+}
+
+/* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.h0 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.h0-xs {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.h1-xs {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+/* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+/* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.h2-xs {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+/* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.h3-xs {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+h4 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+/* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.h4 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+/* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.h4-xs {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+/* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+h5 {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+/* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.h5 {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+/* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.h5-xs {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+/* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+h6 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.h6 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.h6-xs {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* line 2, sources/sass/bootstrapper/components/_paragraph.scss */
+p {
+  line-height: 150%;
+}
+
+/* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p0 {
+  font-size: 0.9375rem;
+  margin-bottom: 0.5rem;
+}
+
+/* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p0-block p {
+  font-size: 0.9375rem;
+  margin-bottom: 0.5rem;
+}
+
+/* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p0-xs {
+  font-size: 0.9375rem;
+  margin-bottom: 0.5rem;
+}
+
+/* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p0-xs-block p {
+  font-size: 0.9375rem;
+  margin-bottom: 0.5rem;
+}
+
+/* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p1 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p1-block p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p1-xs {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p1-xs-block p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p2 {
+  font-size: 1.0625rem;
+  margin-bottom: 0.75rem;
+}
+
+/* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p2-block p {
+  font-size: 1.0625rem;
+  margin-bottom: 0.75rem;
+}
+
+/* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p2-xs {
+  font-size: 1.0625rem;
+  margin-bottom: 0.75rem;
+}
+
+/* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p2-xs-block p {
+  font-size: 1.0625rem;
+  margin-bottom: 0.75rem;
+}
+
+/* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p3 {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+/* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p3-block p {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+/* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p3-xs {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+/* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p3-xs-block p {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+/* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p4 {
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+/* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p4-block p {
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+/* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p4-xs {
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+/* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p4-xs-block p {
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+/* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p5 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p5-block p {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p5-xs {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p5-xs-block p {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p6 {
+  font-size: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
+/* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p6-block p {
+  font-size: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
+/* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p6-xs {
+  font-size: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
+/* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p6-xs-block p {
+  font-size: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
+/* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p0-text p, .p0-text li {
+  font-size: 0.9375rem;
+}
+
+/* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p0-xs-text p, .p0-xs-text li {
+  font-size: 0.9375rem;
+}
+
+/* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p1-text p, .p1-text li {
+  font-size: 1rem;
+}
+
+/* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p1-xs-text p, .p1-xs-text li {
+  font-size: 1rem;
+}
+
+/* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p2-text p, .p2-text li {
+  font-size: 1.0625rem;
+}
+
+/* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p2-xs-text p, .p2-xs-text li {
+  font-size: 1.0625rem;
+}
+
+/* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p3-text p, .p3-text li {
+  font-size: 1.125rem;
+}
+
+/* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p3-xs-text p, .p3-xs-text li {
+  font-size: 1.125rem;
+}
+
+/* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p4-text p, .p4-text li {
+  font-size: 1.25rem;
+}
+
+/* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p4-xs-text p, .p4-xs-text li {
+  font-size: 1.25rem;
+}
+
+/* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p5-text p, .p5-text li {
+  font-size: 1.5rem;
+}
+
+/* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p5-xs-text p, .p5-xs-text li {
+  font-size: 1.5rem;
+}
+
+/* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p6-text p, .p6-text li {
+  font-size: 1.75rem;
+}
+
+/* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+.p6-xs-text p, .p6-xs-text li {
+  font-size: 1.75rem;
+}
+
+/* line 3, sources/sass/bootstrapper/components/_check-input.scss */
+.form-check-input {
+  margin-top: 0;
+}
+
+/* line 4, sources/sass/bootstrapper/components/_lists.scss */
+ol, ul, dl {
+  padding-left: 0;
+}
+
+/* line 7, sources/sass/bootstrapper/components/_lists.scss */
+ol li, ul li, dl li {
+  line-height: 150%;
+}
+
+/* line 15, sources/sass/bootstrapper/components/_lists.scss */
+ul.links li, ul.tips li {
+  margin-left: 1.5rem;
+}
+
+/* line 21, sources/sass/bootstrapper/components/_lists.scss */
+ul.inline li {
+  margin: 0 auto;
+}
+
+/* line 28, sources/sass/bootstrapper/components/_lists.scss */
+.item-list ul, .item-list ol, .item-list dl {
+  margin: 0 0 1rem 0;
+}
+
+/* line 1, sources/sass/bootstrapper/components/_breadcrumb.scss */
+.breadcrumb {
+  padding: 0.75rem 1rem;
+}
+
+/* line 1, sources/sass/bootstrapper/components/_media.scss */
+embed,
+img,
+object,
+video,
+media {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 1, sources/sass/bootstrapper/components/_navbar.scss */
+.navbar-brand {
+  vertical-align: top;
+}
+
+/* line 5, sources/sass/bootstrapper/components/_navbar.scss */
+.navbar-brand.site-branding--logo img {
+  min-width: 2.5rem;
+}
+
+/* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-tiny {
+  padding: 0.2625rem 0.5625rem;
+  font-size: 0.5625rem;
+  line-height: 1.5;
+  -webkit-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-tiny.btn-width-narrowest {
+  padding-left: 0.28125rem;
+  padding-right: 0.28125rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-tiny.btn-width-narrow {
+  padding-left: 0.42188rem;
+  padding-right: 0.42188rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-tiny.btn-width-wide {
+  padding-left: 0.84375rem;
+  padding-right: 0.84375rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-tiny.btn-width-wider {
+  padding-left: 1.125rem;
+  padding-right: 1.125rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-tiny.btn-width-widest {
+  padding-left: 1.6875rem;
+  padding-right: 1.6875rem;
+}
+
+/* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-small {
+  padding: 0.2975rem 0.6375rem;
+  font-size: 0.6375rem;
+  line-height: 1.5;
+  -webkit-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-small.btn-width-narrowest {
+  padding-left: 0.31875rem;
+  padding-right: 0.31875rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-small.btn-width-narrow {
+  padding-left: 0.47813rem;
+  padding-right: 0.47813rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-small.btn-width-wide {
+  padding-left: 0.95625rem;
+  padding-right: 0.95625rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-small.btn-width-wider {
+  padding-left: 1.275rem;
+  padding-right: 1.275rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-small.btn-width-widest {
+  padding-left: 1.9125rem;
+  padding-right: 1.9125rem;
+}
+
+/* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn {
+  padding: 0.35rem 0.75rem;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  -webkit-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn.btn-width-narrowest {
+  padding-left: 0.375rem;
+  padding-right: 0.375rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn.btn-width-narrow {
+  padding-left: 0.5625rem;
+  padding-right: 0.5625rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn.btn-width-wide {
+  padding-left: 1.125rem;
+  padding-right: 1.125rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn.btn-width-wider {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn.btn-width-widest {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
+/* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-big {
+  padding: 0.4025rem 0.8625rem;
+  font-size: 0.8625rem;
+  line-height: 1.5;
+  -webkit-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-big.btn-width-narrowest {
+  padding-left: 0.43125rem;
+  padding-right: 0.43125rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-big.btn-width-narrow {
+  padding-left: 0.64688rem;
+  padding-right: 0.64688rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-big.btn-width-wide {
+  padding-left: 1.29375rem;
+  padding-right: 1.29375rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-big.btn-width-wider {
+  padding-left: 1.725rem;
+  padding-right: 1.725rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-big.btn-width-widest {
+  padding-left: 2.5875rem;
+  padding-right: 2.5875rem;
+}
+
+/* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-large {
+  padding: 0.525rem 1.125rem;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  -webkit-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-large.btn-width-narrowest {
+  padding-left: 0.5625rem;
+  padding-right: 0.5625rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-large.btn-width-narrow {
+  padding-left: 0.84375rem;
+  padding-right: 0.84375rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-large.btn-width-wide {
+  padding-left: 1.6875rem;
+  padding-right: 1.6875rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-large.btn-width-wider {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-large.btn-width-widest {
+  padding-left: 3.375rem;
+  padding-right: 3.375rem;
+}
+
+/* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-huge {
+  padding: 0.7rem 1.5rem;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  -webkit-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-huge.btn-width-narrowest {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-huge.btn-width-narrow {
+  padding-left: 1.125rem;
+  padding-right: 1.125rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-huge.btn-width-wide {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-huge.btn-width-wider {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+/* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+.btn-size-huge.btn-width-widest {
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+}
+
+@media (min-width: 36rem) {
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h0 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h0-sm {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h1-sm {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h2-sm {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h3-sm {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h4 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h4 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h4-sm {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h5 {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h5 {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h5-sm {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h6 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h6 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h6-sm {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0 {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0-block p {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0-sm {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0-sm-block p {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1 {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1-block p {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1-sm {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1-sm-block p {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2 {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2-block p {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2-sm {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2-sm-block p {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3 {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3-block p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3-sm {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3-sm-block p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4 {
+    font-size: 1.5rem;
+    margin-bottom: 1.875rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4-block p {
+    font-size: 1.5rem;
+    margin-bottom: 1.875rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4-sm {
+    font-size: 1.5rem;
+    margin-bottom: 1.875rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4-sm-block p {
+    font-size: 1.5rem;
+    margin-bottom: 1.875rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5 {
+    font-size: 1.75rem;
+    margin-bottom: 2.25rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5-block p {
+    font-size: 1.75rem;
+    margin-bottom: 2.25rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5-sm {
+    font-size: 1.75rem;
+    margin-bottom: 2.25rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5-sm-block p {
+    font-size: 1.75rem;
+    margin-bottom: 2.25rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6 {
+    font-size: 2rem;
+    margin-bottom: 2.625rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6-block p {
+    font-size: 2rem;
+    margin-bottom: 2.625rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6-sm {
+    font-size: 2rem;
+    margin-bottom: 2.625rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6-sm-block p {
+    font-size: 2rem;
+    margin-bottom: 2.625rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0-text p, .p0-text li {
+    font-size: 0.875rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0-sm-text p, .p0-sm-text li {
+    font-size: 0.875rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1-text p, .p1-text li {
+    font-size: 1rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1-sm-text p, .p1-sm-text li {
+    font-size: 1rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2-text p, .p2-text li {
+    font-size: 1.125rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2-sm-text p, .p2-sm-text li {
+    font-size: 1.125rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3-text p, .p3-text li {
+    font-size: 1.25rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3-sm-text p, .p3-sm-text li {
+    font-size: 1.25rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4-text p, .p4-text li {
+    font-size: 1.5rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4-sm-text p, .p4-sm-text li {
+    font-size: 1.5rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5-text p, .p5-text li {
+    font-size: 1.75rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5-sm-text p, .p5-sm-text li {
+    font-size: 1.75rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6-text p, .p6-text li {
+    font-size: 2rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6-sm-text p, .p6-sm-text li {
+    font-size: 2rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny {
+    padding: 0.3375rem 0.6375rem;
+    font-size: 0.6375rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny.btn-width-narrowest {
+    padding-left: 0.31875rem;
+    padding-right: 0.31875rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny.btn-width-narrow {
+    padding-left: 0.47813rem;
+    padding-right: 0.47813rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny.btn-width-wide {
+    padding-left: 0.95625rem;
+    padding-right: 0.95625rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny.btn-width-wider {
+    padding-left: 1.275rem;
+    padding-right: 1.275rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny.btn-width-widest {
+    padding-left: 1.9125rem;
+    padding-right: 1.9125rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small {
+    padding: 0.3825rem 0.7225rem;
+    font-size: 0.7225rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small.btn-width-narrowest {
+    padding-left: 0.36125rem;
+    padding-right: 0.36125rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small.btn-width-narrow {
+    padding-left: 0.54188rem;
+    padding-right: 0.54188rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small.btn-width-wide {
+    padding-left: 1.08375rem;
+    padding-right: 1.08375rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small.btn-width-wider {
+    padding-left: 1.445rem;
+    padding-right: 1.445rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small.btn-width-widest {
+    padding-left: 2.1675rem;
+    padding-right: 2.1675rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn {
+    padding: 0.45rem 0.85rem;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn.btn-width-narrowest {
+    padding-left: 0.425rem;
+    padding-right: 0.425rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn.btn-width-narrow {
+    padding-left: 0.6375rem;
+    padding-right: 0.6375rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn.btn-width-wide {
+    padding-left: 1.275rem;
+    padding-right: 1.275rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn.btn-width-wider {
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn.btn-width-widest {
+    padding-left: 2.55rem;
+    padding-right: 2.55rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big {
+    padding: 0.5175rem 0.9775rem;
+    font-size: 0.9775rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big.btn-width-narrowest {
+    padding-left: 0.48875rem;
+    padding-right: 0.48875rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big.btn-width-narrow {
+    padding-left: 0.73313rem;
+    padding-right: 0.73313rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big.btn-width-wide {
+    padding-left: 1.46625rem;
+    padding-right: 1.46625rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big.btn-width-wider {
+    padding-left: 1.955rem;
+    padding-right: 1.955rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big.btn-width-widest {
+    padding-left: 2.9325rem;
+    padding-right: 2.9325rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large {
+    padding: 0.675rem 1.275rem;
+    font-size: 1.0625rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large.btn-width-narrowest {
+    padding-left: 0.6375rem;
+    padding-right: 0.6375rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large.btn-width-narrow {
+    padding-left: 0.95625rem;
+    padding-right: 0.95625rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large.btn-width-wide {
+    padding-left: 1.9125rem;
+    padding-right: 1.9125rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large.btn-width-wider {
+    padding-left: 2.55rem;
+    padding-right: 2.55rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large.btn-width-widest {
+    padding-left: 3.825rem;
+    padding-right: 3.825rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge {
+    padding: 0.9rem 1.7rem;
+    font-size: 1.275rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge.btn-width-narrowest {
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge.btn-width-narrow {
+    padding-left: 1.275rem;
+    padding-right: 1.275rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge.btn-width-wide {
+    padding-left: 2.55rem;
+    padding-right: 2.55rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge.btn-width-wider {
+    padding-left: 3.4rem;
+    padding-right: 3.4rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge.btn-width-widest {
+    padding-left: 5.1rem;
+    padding-right: 5.1rem;
+  }
+}
+
+@media (min-width: 48rem) {
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h0 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h0-md {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h1-md {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h2-md {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h3-md {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h4 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h4 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h4-md {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h5 {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h5 {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h5-md {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h6 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h6 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h6-md {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0 {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0-block p {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0-md {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0-md-block p {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1-block p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1-md {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1-md-block p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2 {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2-block p {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2-md {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2-md-block p {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3 {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3-block p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3-md {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3-md-block p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4 {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4-block p {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4-md {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4-md-block p {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5 {
+    font-size: 1.75rem;
+    margin-bottom: 3rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5-block p {
+    font-size: 1.75rem;
+    margin-bottom: 3rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5-md {
+    font-size: 1.75rem;
+    margin-bottom: 3rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5-md-block p {
+    font-size: 1.75rem;
+    margin-bottom: 3rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6 {
+    font-size: 2.25rem;
+    margin-bottom: 3.5rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6-block p {
+    font-size: 2.25rem;
+    margin-bottom: 3.5rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6-md {
+    font-size: 2.25rem;
+    margin-bottom: 3.5rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6-md-block p {
+    font-size: 2.25rem;
+    margin-bottom: 3.5rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0-text p, .p0-text li {
+    font-size: 0.875rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0-md-text p, .p0-md-text li {
+    font-size: 0.875rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1-text p, .p1-text li {
+    font-size: 1rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1-md-text p, .p1-md-text li {
+    font-size: 1rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2-text p, .p2-text li {
+    font-size: 1.125rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2-md-text p, .p2-md-text li {
+    font-size: 1.125rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3-text p, .p3-text li {
+    font-size: 1.25rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3-md-text p, .p3-md-text li {
+    font-size: 1.25rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4-text p, .p4-text li {
+    font-size: 1.5rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4-md-text p, .p4-md-text li {
+    font-size: 1.5rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5-text p, .p5-text li {
+    font-size: 1.75rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5-md-text p, .p5-md-text li {
+    font-size: 1.75rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6-text p, .p6-text li {
+    font-size: 2.25rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6-md-text p, .p6-md-text li {
+    font-size: 2.25rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny {
+    padding: 0.375rem 0.75rem;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny.btn-width-narrowest {
+    padding-left: 0.375rem;
+    padding-right: 0.375rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny.btn-width-narrow {
+    padding-left: 0.5625rem;
+    padding-right: 0.5625rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny.btn-width-wide {
+    padding-left: 1.125rem;
+    padding-right: 1.125rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny.btn-width-wider {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny.btn-width-widest {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small {
+    padding: 0.425rem 0.85rem;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small.btn-width-narrowest {
+    padding-left: 0.425rem;
+    padding-right: 0.425rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small.btn-width-narrow {
+    padding-left: 0.6375rem;
+    padding-right: 0.6375rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small.btn-width-wide {
+    padding-left: 1.275rem;
+    padding-right: 1.275rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small.btn-width-wider {
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small.btn-width-widest {
+    padding-left: 2.55rem;
+    padding-right: 2.55rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn.btn-width-narrowest {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn.btn-width-narrow {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn.btn-width-wide {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn.btn-width-wider {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn.btn-width-widest {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big {
+    padding: 0.575rem 1.15rem;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big.btn-width-narrowest {
+    padding-left: 0.575rem;
+    padding-right: 0.575rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big.btn-width-narrow {
+    padding-left: 0.8625rem;
+    padding-right: 0.8625rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big.btn-width-wide {
+    padding-left: 1.725rem;
+    padding-right: 1.725rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big.btn-width-wider {
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big.btn-width-widest {
+    padding-left: 3.45rem;
+    padding-right: 3.45rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large.btn-width-narrowest {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large.btn-width-narrow {
+    padding-left: 1.125rem;
+    padding-right: 1.125rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large.btn-width-wide {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large.btn-width-wider {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large.btn-width-widest {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge.btn-width-narrowest {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge.btn-width-narrow {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge.btn-width-wide {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge.btn-width-wider {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge.btn-width-widest {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
+@media (min-width: 62rem) {
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h0 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h0-lg {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h1-lg {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h2-lg {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h3-lg {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h4-lg {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h5-lg {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h6 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h6 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h6-lg {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0 {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0-block p {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0-lg {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0-lg-block p {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1-block p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1-lg {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1-lg-block p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2 {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2-block p {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2-lg {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2-lg-block p {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3 {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3-block p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3-lg {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3-lg-block p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4 {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4-block p {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4-lg {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4-lg-block p {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5 {
+    font-size: 1.75rem;
+    margin-bottom: 3rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5-block p {
+    font-size: 1.75rem;
+    margin-bottom: 3rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5-lg {
+    font-size: 1.75rem;
+    margin-bottom: 3rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5-lg-block p {
+    font-size: 1.75rem;
+    margin-bottom: 3rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6 {
+    font-size: 2.25rem;
+    margin-bottom: 3.5rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6-block p {
+    font-size: 2.25rem;
+    margin-bottom: 3.5rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6-lg {
+    font-size: 2.25rem;
+    margin-bottom: 3.5rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6-lg-block p {
+    font-size: 2.25rem;
+    margin-bottom: 3.5rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0-text p, .p0-text li {
+    font-size: 0.875rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0-lg-text p, .p0-lg-text li {
+    font-size: 0.875rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1-text p, .p1-text li {
+    font-size: 1rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1-lg-text p, .p1-lg-text li {
+    font-size: 1rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2-text p, .p2-text li {
+    font-size: 1.125rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2-lg-text p, .p2-lg-text li {
+    font-size: 1.125rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3-text p, .p3-text li {
+    font-size: 1.25rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3-lg-text p, .p3-lg-text li {
+    font-size: 1.25rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4-text p, .p4-text li {
+    font-size: 1.5rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4-lg-text p, .p4-lg-text li {
+    font-size: 1.5rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5-text p, .p5-text li {
+    font-size: 1.75rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5-lg-text p, .p5-lg-text li {
+    font-size: 1.75rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6-text p, .p6-text li {
+    font-size: 2.25rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6-lg-text p, .p6-lg-text li {
+    font-size: 2.25rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny {
+    padding: 0.45rem 0.75rem;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny.btn-width-narrowest {
+    padding-left: 0.375rem;
+    padding-right: 0.375rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny.btn-width-narrow {
+    padding-left: 0.5625rem;
+    padding-right: 0.5625rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny.btn-width-wide {
+    padding-left: 1.125rem;
+    padding-right: 1.125rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny.btn-width-wider {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny.btn-width-widest {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small {
+    padding: 0.51rem 0.85rem;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small.btn-width-narrowest {
+    padding-left: 0.425rem;
+    padding-right: 0.425rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small.btn-width-narrow {
+    padding-left: 0.6375rem;
+    padding-right: 0.6375rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small.btn-width-wide {
+    padding-left: 1.275rem;
+    padding-right: 1.275rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small.btn-width-wider {
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small.btn-width-widest {
+    padding-left: 2.55rem;
+    padding-right: 2.55rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn {
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn.btn-width-narrowest {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn.btn-width-narrow {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn.btn-width-wide {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn.btn-width-wider {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn.btn-width-widest {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big {
+    padding: 0.69rem 1.15rem;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big.btn-width-narrowest {
+    padding-left: 0.575rem;
+    padding-right: 0.575rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big.btn-width-narrow {
+    padding-left: 0.8625rem;
+    padding-right: 0.8625rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big.btn-width-wide {
+    padding-left: 1.725rem;
+    padding-right: 1.725rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big.btn-width-wider {
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big.btn-width-widest {
+    padding-left: 3.45rem;
+    padding-right: 3.45rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large {
+    padding: 0.9rem 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large.btn-width-narrowest {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large.btn-width-narrow {
+    padding-left: 1.125rem;
+    padding-right: 1.125rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large.btn-width-wide {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large.btn-width-wider {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large.btn-width-widest {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge {
+    padding: 1.2rem 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge.btn-width-narrowest {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge.btn-width-narrow {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge.btn-width-wide {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge.btn-width-wider {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge.btn-width-widest {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
+@media (min-width: 75rem) {
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h0 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h0-xl {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h1-xl {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h2-xl {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h3-xl {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h4-xl {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h5-xl {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h6 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h6 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h6-xl {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0 {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0-block p {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0-xl {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0-xl-block p {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1-block p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1-xl {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1-xl-block p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2 {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2-block p {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2-xl {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2-xl-block p {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3 {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3-block p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3-xl {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3-xl-block p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4 {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4-block p {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4-xl {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4-xl-block p {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5 {
+    font-size: 1.75rem;
+    margin-bottom: 3rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5-block p {
+    font-size: 1.75rem;
+    margin-bottom: 3rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5-xl {
+    font-size: 1.75rem;
+    margin-bottom: 3rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5-xl-block p {
+    font-size: 1.75rem;
+    margin-bottom: 3rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6 {
+    font-size: 2.25rem;
+    margin-bottom: 3.5rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6-block p {
+    font-size: 2.25rem;
+    margin-bottom: 3.5rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6-xl {
+    font-size: 2.25rem;
+    margin-bottom: 3.5rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6-xl-block p {
+    font-size: 2.25rem;
+    margin-bottom: 3.5rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0-text p, .p0-text li {
+    font-size: 0.875rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0-xl-text p, .p0-xl-text li {
+    font-size: 0.875rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1-text p, .p1-text li {
+    font-size: 1rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1-xl-text p, .p1-xl-text li {
+    font-size: 1rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2-text p, .p2-text li {
+    font-size: 1.125rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2-xl-text p, .p2-xl-text li {
+    font-size: 1.125rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3-text p, .p3-text li {
+    font-size: 1.25rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3-xl-text p, .p3-xl-text li {
+    font-size: 1.25rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4-text p, .p4-text li {
+    font-size: 1.5rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4-xl-text p, .p4-xl-text li {
+    font-size: 1.5rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5-text p, .p5-text li {
+    font-size: 1.75rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5-xl-text p, .p5-xl-text li {
+    font-size: 1.75rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6-text p, .p6-text li {
+    font-size: 2.25rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6-xl-text p, .p6-xl-text li {
+    font-size: 2.25rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny {
+    padding: 0.45rem 0.75rem;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny.btn-width-narrowest {
+    padding-left: 0.375rem;
+    padding-right: 0.375rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny.btn-width-narrow {
+    padding-left: 0.5625rem;
+    padding-right: 0.5625rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny.btn-width-wide {
+    padding-left: 1.125rem;
+    padding-right: 1.125rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny.btn-width-wider {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny.btn-width-widest {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small {
+    padding: 0.51rem 0.85rem;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small.btn-width-narrowest {
+    padding-left: 0.425rem;
+    padding-right: 0.425rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small.btn-width-narrow {
+    padding-left: 0.6375rem;
+    padding-right: 0.6375rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small.btn-width-wide {
+    padding-left: 1.275rem;
+    padding-right: 1.275rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small.btn-width-wider {
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small.btn-width-widest {
+    padding-left: 2.55rem;
+    padding-right: 2.55rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn {
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn.btn-width-narrowest {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn.btn-width-narrow {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn.btn-width-wide {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn.btn-width-wider {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn.btn-width-widest {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big {
+    padding: 0.69rem 1.15rem;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big.btn-width-narrowest {
+    padding-left: 0.575rem;
+    padding-right: 0.575rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big.btn-width-narrow {
+    padding-left: 0.8625rem;
+    padding-right: 0.8625rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big.btn-width-wide {
+    padding-left: 1.725rem;
+    padding-right: 1.725rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big.btn-width-wider {
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big.btn-width-widest {
+    padding-left: 3.45rem;
+    padding-right: 3.45rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large {
+    padding: 0.9rem 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large.btn-width-narrowest {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large.btn-width-narrow {
+    padding-left: 1.125rem;
+    padding-right: 1.125rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large.btn-width-wide {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large.btn-width-wider {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large.btn-width-widest {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge {
+    padding: 1.2rem 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge.btn-width-narrowest {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge.btn-width-narrow {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge.btn-width-wide {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge.btn-width-wider {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge.btn-width-widest {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
+@media (min-width: 92.5rem) {
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h0 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h0-xxl {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h1-xxl {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h2-xxl {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h3-xxl {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h4-xxl {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h5-xxl {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  /* line 35, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  h6 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h6 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .h6-xxl {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0 {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0-block p {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0-xxl {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0-xxl-block p {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1-block p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1-xxl {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1-xxl-block p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2 {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2-block p {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2-xxl {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2-xxl-block p {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3 {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3-block p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3-xxl {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3-xxl-block p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4 {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4-block p {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4-xxl {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4-xxl-block p {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5 {
+    font-size: 1.75rem;
+    margin-bottom: 3rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5-block p {
+    font-size: 1.75rem;
+    margin-bottom: 3rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5-xxl {
+    font-size: 1.75rem;
+    margin-bottom: 3rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5-xxl-block p {
+    font-size: 1.75rem;
+    margin-bottom: 3rem;
+  }
+  /* line 40, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6 {
+    font-size: 2.25rem;
+    margin-bottom: 3.5rem;
+  }
+  /* line 45, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6-block p {
+    font-size: 2.25rem;
+    margin-bottom: 3.5rem;
+  }
+  /* line 50, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6-xxl {
+    font-size: 2.25rem;
+    margin-bottom: 3.5rem;
+  }
+  /* line 55, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6-xxl-block p {
+    font-size: 2.25rem;
+    margin-bottom: 3.5rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0-text p, .p0-text li {
+    font-size: 0.875rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p0-xxl-text p, .p0-xxl-text li {
+    font-size: 0.875rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1-text p, .p1-text li {
+    font-size: 1rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p1-xxl-text p, .p1-xxl-text li {
+    font-size: 1rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2-text p, .p2-text li {
+    font-size: 1.125rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p2-xxl-text p, .p2-xxl-text li {
+    font-size: 1.125rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3-text p, .p3-text li {
+    font-size: 1.25rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p3-xxl-text p, .p3-xxl-text li {
+    font-size: 1.25rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4-text p, .p4-text li {
+    font-size: 1.5rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p4-xxl-text p, .p4-xxl-text li {
+    font-size: 1.5rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5-text p, .p5-text li {
+    font-size: 1.75rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p5-xxl-text p, .p5-xxl-text li {
+    font-size: 1.75rem;
+  }
+  /* line 79, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6-text p, .p6-text li {
+    font-size: 2.25rem;
+  }
+  /* line 84, sources/sass/bootstrapper/abstractions/mixins/_font-size.scss */
+  .p6-xxl-text p, .p6-xxl-text li {
+    font-size: 2.25rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny {
+    padding: 0.45rem 0.75rem;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny.btn-width-narrowest {
+    padding-left: 0.375rem;
+    padding-right: 0.375rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny.btn-width-narrow {
+    padding-left: 0.5625rem;
+    padding-right: 0.5625rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny.btn-width-wide {
+    padding-left: 1.125rem;
+    padding-right: 1.125rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny.btn-width-wider {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-tiny.btn-width-widest {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small {
+    padding: 0.51rem 0.85rem;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small.btn-width-narrowest {
+    padding-left: 0.425rem;
+    padding-right: 0.425rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small.btn-width-narrow {
+    padding-left: 0.6375rem;
+    padding-right: 0.6375rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small.btn-width-wide {
+    padding-left: 1.275rem;
+    padding-right: 1.275rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small.btn-width-wider {
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-small.btn-width-widest {
+    padding-left: 2.55rem;
+    padding-right: 2.55rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn {
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn.btn-width-narrowest {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn.btn-width-narrow {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn.btn-width-wide {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn.btn-width-wider {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn.btn-width-widest {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big {
+    padding: 0.69rem 1.15rem;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big.btn-width-narrowest {
+    padding-left: 0.575rem;
+    padding-right: 0.575rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big.btn-width-narrow {
+    padding-left: 0.8625rem;
+    padding-right: 0.8625rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big.btn-width-wide {
+    padding-left: 1.725rem;
+    padding-right: 1.725rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big.btn-width-wider {
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-big.btn-width-widest {
+    padding-left: 3.45rem;
+    padding-right: 3.45rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large {
+    padding: 0.9rem 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large.btn-width-narrowest {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large.btn-width-narrow {
+    padding-left: 1.125rem;
+    padding-right: 1.125rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large.btn-width-wide {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large.btn-width-wider {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-large.btn-width-widest {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+  /* line 42, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge {
+    padding: 1.2rem 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge.btn-width-narrowest {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge.btn-width-narrow {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge.btn-width-wide {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge.btn-width-wider {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  /* line 53, sources/sass/bootstrapper/abstractions/mixins/_button.scss */
+  .btn-size-huge.btn-width-widest {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+/*# sourceMappingURL=components.css.map */

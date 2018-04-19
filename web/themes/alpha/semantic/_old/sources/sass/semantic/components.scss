@@ -1,0 +1,24 @@
+// ====================
+// https://www.drupal.org/node/1887918#separate-concerns
+//
+// Reusable, discrete UI elements; components should form the bulk of Drupal’s CSS.
+// ====================
+
+// Import abstractions.
+// Import variables first because they can contain settings for external libraries.
+@import 'abstract/init';
+@import 'abstract/variables';
+@import 'abstract/abstractions';
+
+// Import external libraries.
+
+
+// Import sass items.
+
+// Textual.
+@import 'components/margin';
+@import 'components/heading';
+@import 'components/hyperlink';
+@import 'components/tab';
+@import 'components/media';
+@import 'components/visibility';

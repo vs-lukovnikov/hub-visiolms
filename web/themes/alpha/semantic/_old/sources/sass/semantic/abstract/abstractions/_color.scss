@@ -1,0 +1,6 @@
+@import "map";
+@import "../variables/color-map";
+
+@function color-get($name:'red', $shade:"500") {
+  @return map-deep-get($color-base-map, $name, $shade);
+}

@@ -1,0 +1,11 @@
+entity.visiolms_unit.collection:
+  route_name: entity.visiolms_unit.collection
+  base_route: entity.visiolms_unit.collection
+  title: Units
+  weight: 10
+
+entity.visiolms_unit_type.collection:
+  route_name: entity.visiolms_unit_type.collection
+  base_route: entity.visiolms_unit.collection
+  title: Types
+  weight: 20

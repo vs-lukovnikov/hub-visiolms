@@ -1,0 +1,18 @@
+.block--system-branding-block {
+  // @include span(2 of 12);
+
+  .site-branding--name {
+    @include font-size(24px);
+
+    a {
+      color: $color-font-base;
+      font-weight: 700;
+    }
+
+  }
+
+  .site-branding--slogan {
+    @include font-size(12px);
+  }
+
+}

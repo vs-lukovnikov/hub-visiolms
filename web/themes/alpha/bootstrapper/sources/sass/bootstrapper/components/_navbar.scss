@@ -1,0 +1,10 @@
+.navbar-brand {
+  vertical-align: top;
+
+  &.site-branding--logo {
+    img {
+      min-width: 40px;
+    }
+  }
+
+}

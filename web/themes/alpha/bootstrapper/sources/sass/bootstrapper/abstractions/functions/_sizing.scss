@@ -1,0 +1,41 @@
+@function rem($target: 0, $context: $font-size-base-px) {
+  // @debug "rem: target: #{$target}";
+  @if ($target == 0) {
+    @return 0;
+  }
+  @if (unit($target) == 'px') {
+    @return ($target / $context) * 1rem;
+  }
+  @if (unit($target) == 'rem') {
+    @return $target;
+  }
+  @error 'Invalid units #{$target}';
+}
+
+@function em($target: 0, $context: $font-size-base-px) {
+  // @debug "em: target: #{$target}";
+  @if ($target == 0) {
+    @return 0;
+  }
+  @if (unit($target) == 'px') {
+    @return ($target / $context) * 1em;
+  }
+  @if (unit($target) == 'em') {
+    @return $target;
+  }
+  @error 'Invalid units #{$target}';
+}
+
+@function percent($target: 0, $context: $line-height-base) {
+  // @debug "percent: target: #{$target}";
+  @if ($target == 0) {
+    @return 0;
+  }
+  @if (unit($target) == '%') {
+    @return $target;
+  }
+  @else {
+    @return ($target / $context) * 100%;
+  }
+  @error 'Invalid units #{$target}';
+}

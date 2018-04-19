@@ -1,0 +1,19 @@
+@function font-size-get($fs-map: (), $bp: '', $size: '') {
+  $base: map_deep_get($fs-map, $bp, 'base');
+  @if($size == 'base') {
+    @return $base;
+  }
+  @else {
+    $math: map_deep_get($fs-map, $bp, 'math');
+    $multiplier: map_deep_get($fs-map, $bp, 'multiplier', $size);
+    $fs: $base;
+    @if($math == 'arithmetic') {
+      $fs: $base + $multiplier;
+    }
+    @else if($math == 'geometric') {
+      $fs: $base * $multiplier;
+    }
+    // @debug #{$size} - #{$bp} - #{$math} - #{$base} - #{$multiplier} - final - #{$fs};
+    @return $fs;
+  }
+}

@@ -1,0 +1,163 @@
+{
+    "name": "visiolms/visiolms",
+    "description": "Visio Learning Hub.",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Alpha Web Group",
+            "role": "developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "composer",
+            "url": "https://packages.awgspace.com"
+        }
+    ],
+    "require": {
+        "composer/installers": "^1.2",
+        "drupal-composer/drupal-scaffold": "^2.2",
+        "cweagans/composer-patches": "^1.6",
+        "oomphinc/composer-installers-extender" : "v1.1.*",
+        "wikimedia/composer-merge-plugin": "^1.4",
+        "webflo/drupal-finder": "^1.0.0",
+        "webmozart/path-util": "^2.3",
+
+        "drush/drush": "dev-master",
+        "drupal/core": "8.6.x-dev",
+
+        "drupal/backup_migrate": "4.x-dev",
+        "drupal/module_filter": "3.x-dev",
+        "drupal/ctools": "3.x-dev",
+        "drupal/token": "1.x-dev",
+        "drupal/typed_data": "1.x-dev",
+        "drupal/rules": "3.x-dev",
+        "drupal/ultimate_cron": "2.x-dev",
+
+        "drupal/features": "3.x-dev",
+        "drupal/config_update": "1.x-dev",
+
+        "drupal/page_manager": "4.x-dev",
+        "drupal/panels": "4.x-dev",
+
+        "drupal/group": "1.x-dev",
+
+        "drupal/profile": "1.x-dev",
+        "drupal/user_route_context": "1.x-dev",
+        "drupal/r4032login": "1.x-dev",
+
+        "drupal/entity": "1.x-dev",
+        "drupal/entity_generic": "1.x-dev",
+        "drupal/entity_reference_uuid": "1.x-dev",
+        "drupal/inline_entity_form": "1.x-dev",
+        "drupal/entity_form_block": "1.x-dev",
+        "drupal/video_embed_field": "^1.5",
+
+        "drupal/field_group": "1.x-dev",
+        "drupal/field_formatter_class": "1.x-dev",
+
+        "visiolms/core": "dev-master",
+        "visiolms/course": "8.1.x-dev",
+        "visiolms/unit": "8.1.x-dev",
+        "visiolms/lesson": "8.1.x-dev",
+
+        "drupal/block_class": "1.x-dev",
+
+        "alphathemes/semantic": "8.2.x-dev",
+        "alphathemes/bootstrapper": "8.2.x-dev",
+
+        "drupal/styleguide": "1.x-dev",
+        "drupal/devel": "1.x-dev"
+    },
+    "require-dev": {
+        "behat/mink": "~1.7",
+        "behat/mink-goutte-driver": "~1.2",
+        "jcalderonzumba/gastonjs": "~1.0.2",
+        "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
+        "mikey179/vfsStream": "~1.2",
+        "phpunit/phpunit": "~4.8",
+        "symfony/css-selector": "~2.8"
+    },
+    "config": {
+        "bin-dir": "bin/",
+        "discard-changes": true,
+        "autoloader-suffix": "Drupal8"
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "classmap": [
+            "scripts/composer/ScriptHandler.php"
+        ]
+    },
+    "scripts": {
+        "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
+        "pre-install-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+        ],
+        "pre-update-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+        ],
+        "post-install-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ],
+        "post-update-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ]
+    },
+    "extra": {
+        "installer-types": [
+            "component",
+            "library",
+            "drupal-module",
+            "drupal-module-sandbox",
+            "drupal-module-alpha",
+            "drupal-module-visiolms",
+            "drupal-theme",
+            "drupal-theme-sandbox",
+            "drupal-theme-alpha"
+        ],
+        "installer-paths": {
+            "web/libraries/{$name}": ["type:drupal-library"],
+            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "web/modules/contrib/{$name}": ["type:drupal-module"],
+            "web/modules/sandbox/{$name}": ["type:drupal-module-sandbox"],
+            "web/modules/alpha/{$name}": ["type:drupal-module-alpha"],
+            "web/modules/visiolms/{$name}": ["type:drupal-module-visiolms"],
+            "web/themes/contrib/{$name}": ["type:drupal-theme"],
+            "web/themes/sandbox/{$name}": ["type:drupal-theme-sandbox"],
+            "web/themes/alpha/{$name}": ["type:drupal-theme-alpha"],
+            "drush/contrib/{$name}": ["type:drupal-drush"],
+            "web/core": ["type:drupal-core"]
+        },
+        "patches": {
+            "drupal/core": {
+                "2652652": "https://www.drupal.org/files/issues/2652652-38.patch",
+                "2923634": "https://www.drupal.org/files/issues/2923634-22.patch"
+            },
+            "drupal/ctools": {
+                "2874176": "https://www.drupal.org/files/issues/entityview-cache-metadata-2874176-2.patch"
+            },
+            "drupal/page_manager": {
+                "2799885": "https://www.drupal.org/files/issues/2799885-page_manager-context_adding_fix.patch"
+            },
+            "drupal/panels": {
+                "2849867": "https://www.drupal.org/files/issues/panels_custom_attributes_in_panels_blocks-2849867-21.patch"
+            },
+            "drupal/profile": {
+                "2946712": "https://www.drupal.org/files/issues/2946712-5.patch"
+            }
+        },
+        "patches_dont_apply": {
+
+        }
+    }
+}

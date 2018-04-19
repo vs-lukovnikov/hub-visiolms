@@ -1,0 +1,11 @@
+entity.visiolms_course.collection:
+  title: Courses
+  description: Administer courses.
+  parent: system.admin_structure
+  route_name: entity.visiolms_course.collection
+
+entity.visiolms_course_type.collection:
+  title: Course types
+  description: Configure the different types of course and their fields.
+  parent: entity.visiolms_course.collection
+  route_name: entity.visiolms_course_type.collection

@@ -1,0 +1,57 @@
+<?php
+
+/**
+ * Implements hook_styleguide_alter().
+ * @param $items
+ */
+function semantic_styleguide_styleguide_alter(&$items) {
+  // Add a class to the text test.
+  // $items['text']['content'] = '<div class="mytestclass">' . $items['text']['content'] . '</div>';
+  // Remove the headings tests.
+  // unset($items['headings']);
+}
+
+/**
+ * Implements hook_styleguide_info_alter().
+ * @param $info
+ */
+function semantic_styleguide_styleguide_info_alter(&$info) {
+  unset($info['default_styleguide']);
+  unset($info['comment_styleguide']);
+  unset($info['image_styleguide']);
+  unset($info['search_styleguide']);
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ * @param $form
+ * @param $form_state
+ */
+function semantic_styleguide_form_styleguide_form_alter(&$form, &$form_state) {
+
+//  $form['semantic-actions-primary'] = [
+//    '#type' => 'actions',
+//    'submit' => [
+//      '#type' => 'submit',
+//      '#value' => t('Save'),
+//      '#button_type' => 'primary',
+//    ],
+//    'cancel' => [
+//      '#type' => 'button',
+//      '#value' => t('Cancel'),
+//    ],
+//  ];
+
+  $form['semantic-button-primary'] = [
+    '#type' => 'button',
+    '#value' => t('Primary button'),
+    '#button_type' => 'primary',
+  ];
+
+  $form['semantic-button-secondary'] = [
+    '#type' => 'button',
+    '#value' => t('Secondary button'),
+    '#button_type' => 'secondary',
+  ];
+
+}

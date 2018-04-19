@@ -1,0 +1,112 @@
+<?php
+
+use Drupal\semantic\Theme;
+use Drupal\semantic\ThemeRegistry;
+
+/**
+ * Implements hook_html_head_alter().
+ *
+ * @param $head_elements
+ */
+function semantic_html_head_alter(&$head_elements) {
+  // cleartype
+  $head_elements['cleartype'] = array(
+    '#type' => 'html_tag',
+    '#tag' => 'meta',
+    '#attributes' => array(
+      'http-equiv' => "cleartype",
+      'content' => "on",
+    ),
+    '#weight' => -998,
+  );
+
+  // viewport
+  $head_elements['viewport'] = array(
+    '#type' => 'html_tag',
+    '#tag' => 'meta',
+    '#attributes' => array(
+      'content' => 'width=device-width, initial-scale=1, maximum-scale=2, minimum-scale=1, user-scalable=yes',
+      'name' => 'viewport',
+    ),
+    '#weight' => -997,
+  );
+}
+
+/**
+ * Implements hook_theme_registry_alter().
+ *
+ * @param $registry
+ */
+function semantic_theme_registry_alter(&$registry) {
+  $theme_name = \Drupal::theme()->getActiveTheme()->getName();
+
+  /** @var ThemeRegistry $registry_handler */
+  $registry_handler = new ThemeRegistry($registry, $theme_name);
+
+  /** @var Theme $theme_handler */
+  $theme_handler = new Theme($theme_name);
+
+  // Allows themers to split preprocess code across separate
+  // files to keep the main theme file clean. This is really fast because
+  // it uses the theme registry to cache the paths to the files that it finds.
+  $trail = $theme_handler->getThemeTrail();
+  foreach ($trail as $theme => $name) {
+    $registry_handler->registerHooks($theme);
+  }
+}
+
+/**
+ * Implements hook_theme_suggestions_alter().
+ *
+ * @param array $suggestions
+ * @param array $variables
+ * @param $hook
+ */
+function semantic_theme_suggestions_alter(array &$suggestions, array $variables, $hook) {
+
+  $path_string = trim(\Drupal::routeMatch()->getRouteObject()->getPath(), '/');
+  $paths = explode('/', $path_string);
+
+  // Page.
+  if ($hook == 'page') {
+    // Page by route name.
+    $suggestions[] = $hook . '__' . str_replace('.', '_', \Drupal::routeMatch()->getRouteName());
+  }
+
+  // Region.
+  if ($hook == 'region') {
+    // Region by route path.
+    $path_composed = [];
+    foreach ($paths as $path) {
+      $path_composed[] = $path;
+      $suggestions[] = $hook . '__' . $variables['elements']['#region'] . '__' . implode('_', $path_composed);
+    }
+    // Region by route name.
+    $suggestions[] = $hook . '__' . $variables['elements']['#region'] . '__' . str_replace('.', '_', \Drupal::routeMatch()->getRouteName());
+  }
+
+  // Block.
+  if ($hook == 'block') {
+    // Page by route name.
+    // $suggestions[] = $hook . '__' . str_replace('.', '_', \Drupal::routeMatch()->getRouteName());
+  }
+
+  // Menu local tasks.
+  if ($hook == 'menu_local_tasks') {
+    // Local tasks by route name.
+    $suggestions[] = $hook . '__' . str_replace('.', '_', \Drupal::routeMatch()->getRouteName());
+  }
+
+  // Form suggestions.
+  if ($hook == 'form') {
+    // Form by form ID.
+    $suggestions[] = $hook . '__' . $variables['element']['#form_id'];
+  }
+
+  // Input suggestions.
+  if ($hook == 'input') {
+    $suggestions[] = $hook . '__' . $variables['element']['#type'];
+    $suggestions[] = $hook . '__' . $variables['element']['#type'] . '__' . $variables['element']['#name'];
+  }
+
+}

@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function semantic_menu_theme() {
+  return array(
+    'semantic_menu_button' => [
+      'render element' => 'element',
+    ],
+  );
+}

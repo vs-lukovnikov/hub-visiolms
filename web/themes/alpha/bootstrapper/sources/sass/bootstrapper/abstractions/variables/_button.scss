@@ -1,0 +1,94 @@
+$button-size-map: (
+  "xs": (
+    "font-size": rhythm(0.75),
+    "line-height": 1.5,
+    "padding-vertical": rhythm(0.35),
+    "padding-horizontal": rhythm(0.75),
+    "border-radius": rhythm(0.25),
+  ),
+  'sm': (
+    "font-size": rhythm(0.85),
+    "line-height": 1.5,
+    "padding-vertical": rhythm(0.45),
+    "padding-horizontal": rhythm(0.85),
+    "border-radius": rhythm(0.25),
+  ),
+  'md': (
+    "font-size": rhythm(1),
+    "line-height": 1.5,
+    "padding-vertical": rhythm(0.5),
+    "padding-horizontal": rhythm(1),
+    "border-radius": rhythm(0.25),
+  ),
+  'lg': (
+    "font-size": rhythm(1),
+    "line-height": 1.5,
+    "padding-vertical": rhythm(0.6),
+    "padding-horizontal": rhythm(1),
+    "border-radius": rhythm(0.25),
+  ),
+  'xl': (
+    "font-size": rhythm(1),
+    "line-height": 1.5,
+    "padding-vertical": rhythm(0.6),
+    "padding-horizontal": rhythm(1),
+    "border-radius": rhythm(0.25),
+  ),
+  'xxl': (
+    "font-size": rhythm(1),
+    "line-height": 1.5,
+    "padding-vertical": rhythm(0.6),
+    "padding-horizontal": rhythm(1),
+    "border-radius": rhythm(0.25),
+  ),
+);
+
+
+// Button size multipliers.
+$button-size-multiplier-map: (
+  "tiny": (
+    "font-size": 0.75,
+    "line-height": 1,
+    "padding-vertical": 0.75,
+    "padding-horizontal": 0.75,
+  ),
+  "small": (
+    "font-size": 0.85,
+    "line-height": 1,
+    "padding-vertical": 0.85,
+    "padding-horizontal": 0.85,
+  ),
+  "normal": (
+    "font-size": 1,
+    "line-height": 1,
+    "padding-vertical": 1,
+    "padding-horizontal": 1,
+  ),
+  "big": (
+    "font-size": 1.15,
+    "line-height": 1,
+    "padding-vertical": 1.15,
+    "padding-horizontal": 1.15,
+  ),
+  "large": (
+    "font-size": 1.25,
+    "line-height": 1,
+    "padding-vertical": 1.5,
+    "padding-horizontal": 1.5,
+  ),
+  "huge": (
+    "font-size": 1.5,
+    "line-height": 1,
+    "padding-vertical": 2,
+    "padding-horizontal": 2,
+  ),
+);
+
+// Button width multipliers.
+$button-width-multiplier-map: (
+  "narrowest": 0.5,
+  "narrow": 0.75,
+  "wide": 1.5,
+  "wider": 2,
+  "widest": 3,
+);

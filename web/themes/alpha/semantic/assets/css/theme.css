@@ -1,0 +1,25 @@
+/* line 2, sources/sass/semantic/theme/block/_branding.scss */
+.block--system-branding-block .site-logo img {
+  max-width: 3.75rem;
+  max-height: 3.75rem;
+}
+
+/* line 6, sources/sass/semantic/theme/block/_branding.scss */
+.block--system-branding-block .site-details-wrapper {
+  display: inline-block;
+  margin-left: 1rem;
+  vertical-align: top;
+  margin-top: 0.25rem;
+}
+
+/* line 11, sources/sass/semantic/theme/block/_branding.scss */
+.block--system-branding-block .site-details-wrapper .site-name {
+  font-size: 1.5rem;
+}
+
+/* line 14, sources/sass/semantic/theme/block/_branding.scss */
+.block--system-branding-block .site-details-wrapper .site-slogan {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+}
+/*# sourceMappingURL=theme.css.map */

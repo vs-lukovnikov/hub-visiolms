@@ -1,0 +1,11 @@
+entity.visiolms_course.add_page:
+  route_name: entity.visiolms_course.add_page
+  title: 'Add course'
+  appears_on:
+    - entity.visiolms_course.collection
+
+entity.visiolms_course_type.add_form:
+  route_name: entity.visiolms_course_type.add_form
+  title: 'Add course type'
+  appears_on:
+    - entity.visiolms_course_type.collection

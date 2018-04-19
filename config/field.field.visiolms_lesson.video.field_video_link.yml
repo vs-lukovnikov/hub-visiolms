@@ -1,0 +1,25 @@
+uuid: d6b8ca59-eb4e-4bb0-9823-642c61e5769c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.visiolms_lesson.field_video_link
+    - visiolms_lesson.type.video
+  module:
+    - video_embed_field
+id: visiolms_lesson.video.field_video_link
+field_name: field_video_link
+entity_type: visiolms_lesson
+bundle: video
+label: 'Video URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    youtube: '0'
+    vimeo: '0'
+    youtube_playlist: '0'
+field_type: video_embed_field

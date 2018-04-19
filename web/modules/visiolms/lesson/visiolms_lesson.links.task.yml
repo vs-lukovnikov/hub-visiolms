@@ -1,0 +1,11 @@
+entity.visiolms_lesson.collection:
+  route_name: entity.visiolms_lesson.collection
+  base_route: entity.visiolms_lesson.collection
+  title: Lessons
+  weight: 10
+
+entity.visiolms_lesson_type.collection:
+  route_name: entity.visiolms_lesson_type.collection
+  base_route: entity.visiolms_lesson.collection
+  title: Types
+  weight: 20

@@ -1,0 +1,5 @@
+menu-button:
+  version: VERSION
+  css:
+    component:
+      assets/css/menu-button.css: {}

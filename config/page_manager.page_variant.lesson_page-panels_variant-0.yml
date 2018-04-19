@@ -1,0 +1,94 @@
+uuid: e2e9dbcc-9114-40a7-9bc0-b45e57e18ae5
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.lesson_page
+  module:
+    - ctools_block
+    - panels
+id: lesson_page-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    e8ad586a-31ca-408e-8c03-cb904a30824f:
+      id: 'entity_field:visiolms_lesson:name'
+      label: 'Lesson label'
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: hidden
+        type: string
+        settings:
+          link_to_entity: false
+        third_party_settings: {  }
+        weight: 0
+      region: content
+      weight: 0
+      uuid: e8ad586a-31ca-408e-8c03-cb904a30824f
+      context_mapping:
+        entity: visiolms_lesson
+      css_classes: ''
+      css_id: ''
+      css_styles: ''
+    98b368b8-48a1-4459-a999-25a6bb7e8e95:
+      id: 'entity_field:visiolms_lesson:summary'
+      label: 'Lesson summary'
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: hidden
+        type: text_default
+        settings: {  }
+        third_party_settings: {  }
+        weight: 0
+      region: content
+      weight: 0
+      uuid: 98b368b8-48a1-4459-a999-25a6bb7e8e95
+      context_mapping:
+        entity: visiolms_lesson
+      css_classes: ''
+      css_id: ''
+      css_styles: ''
+    d78902f0-3f46-4629-9f16-473a1ec6d8b3:
+      id: 'entity_field:visiolms_lesson:field_video_link'
+      label: 'Video Player'
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: hidden
+        type: video_embed_field_video
+        settings:
+          autoplay: true
+          responsive: true
+          width: 854
+          height: 480
+        third_party_settings: {  }
+        weight: 0
+      region: content
+      weight: 0
+      uuid: d78902f0-3f46-4629-9f16-473a1ec6d8b3
+      context_mapping:
+        entity: visiolms_lesson
+      css_classes: ''
+      css_id: ''
+      css_styles: ''
+  id: panels_variant
+  uuid: fd81fde8-c492-4ef1-bb47-acbf609c15b6
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: lesson_page-panels_variant-0
+  css_classes: ''
+  css_id: ''
+  css_styles: ''
+  builder: standard
+page: lesson_page
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

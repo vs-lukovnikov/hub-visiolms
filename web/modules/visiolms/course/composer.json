@@ -1,0 +1,11 @@
+{
+  "name": "visiolms/course",
+  "type": "drupal-module-visiolms",
+  "description": "Course module.",
+  "require": {
+    "drupal/entity_generic": "1.x-dev",
+    "visiolms/unit": "8.1.x-dev"
+  },
+  "homepage": "https://alphawebgroup.com",
+  "license": "GPL-2.0+"
+}

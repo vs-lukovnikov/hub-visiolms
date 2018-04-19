@@ -1,0 +1,9 @@
+name: VisioLMS Unit
+core: 8.x
+description: LMS Unit.
+package: VisioLMS
+type: module
+version: VERSION
+dependencies:
+  - entity_generic
+  - visiolms_lesson

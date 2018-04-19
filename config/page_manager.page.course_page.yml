@@ -1,0 +1,16 @@
+uuid: 746279b2-e040-406a-b662-e85cc1bcc9f8
+langcode: en
+status: true
+dependencies: {  }
+id: course_page
+label: 'Course Page'
+description: 'simple course page'
+use_admin_theme: false
+path: '/course/{visiolms_course}'
+access_logic: and
+access_conditions: {  }
+parameters:
+  visiolms_course:
+    machine_name: visiolms_course
+    type: 'entity:visiolms_course'
+    label: 'Course ID'

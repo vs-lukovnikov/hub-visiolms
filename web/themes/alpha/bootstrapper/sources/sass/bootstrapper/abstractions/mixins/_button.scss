@@ -1,0 +1,62 @@
+@mixin button-initialize() {
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  overflow: visible;
+  cursor: pointer;
+  height: 100%;
+  @include line-height(1);
+
+  &,
+  &:hover,
+  &:active,
+  &:focus,
+  &:visited {
+    text-decoration: none;
+  }
+}
+
+@mixin button-populate {
+  @each $color, $value in $theme-colors {
+    .btn-#{$color} {
+      @include button-variant($value, $value);
+    }
+  }
+
+  @each $color, $value in $theme-colors {
+    .btn-outline-#{$color} {
+      @include button-outline-variant($value);
+    }
+  }
+}
+
+@mixin button-size-populate($size-map:(), $size-multipliers:(), $width-multipliers:(), $context: "btn") {
+  @each $size-name, $multiplier-map in $size-multipliers {
+    $btn-selector: #{$context};
+    @if ($size-name != "normal") {
+      $btn-selector: #{$context}-size-#{$size-name};
+    }
+
+    @each $bp, $size in $size-map {
+      @include media-breakpoint-up($bp) {
+        .#{$btn-selector} {
+          @include button-size(
+            map-get($size, "padding-vertical") * map-get($multiplier-map, "padding-vertical"),
+            map-get($size, "padding-horizontal") * map-get($multiplier-map, "padding-horizontal"),
+            map-get($size, "font-size") * map-get($multiplier-map, "font-size"),
+            map-get($size, "line-height") * map-get($multiplier-map, "line-height"),
+            map-get($size, "border-radius")
+          );
+
+          @each $width-name, $width-multiplier in $width-multipliers {
+            $btn-width-selector: #{$context}-width-#{$width-name};
+            &.#{$btn-width-selector} {
+              padding-left: map-get($size, "padding-horizontal") * map-get($multiplier-map, "padding-horizontal") * $width-multiplier;
+              padding-right: map-get($size, "padding-horizontal") * map-get($multiplier-map, "padding-horizontal") * $width-multiplier;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+.breakpoint-debug {
+  .breakpoint-debug-xs { @include element-displayed; }
+  .breakpoint-debug-sm { @include element-hidden; }
+  .breakpoint-debug-md { @include element-hidden; }
+  .breakpoint-debug-lg { @include element-hidden; }
+  .breakpoint-debug-xl { @include element-hidden; }
+  .breakpoint-debug-xxl { @include element-hidden; }
+}
+
+@include media-breakpoint-only(sm) {
+  .breakpoint-debug {
+    .breakpoint-debug-xs { @include element-hidden; }
+    .breakpoint-debug-sm { @include element-displayed; }
+    .breakpoint-debug-md { @include element-hidden; }
+    .breakpoint-debug-lg { @include element-hidden; }
+    .breakpoint-debug-xl { @include element-hidden; }
+    .breakpoint-debug-xxl { @include element-hidden; }
+  }
+}
+
+@include media-breakpoint-only(md) {
+  .breakpoint-debug {
+    .breakpoint-debug-xs { @include element-hidden; }
+    .breakpoint-debug-sm { @include element-hidden; }
+    .breakpoint-debug-md { @include element-displayed; }
+    .breakpoint-debug-lg { @include element-hidden; }
+    .breakpoint-debug-xl { @include element-hidden; }
+    .breakpoint-debug-xxl { @include element-hidden; }
+  }
+}
+
+@include media-breakpoint-only(lg) {
+  .breakpoint-debug {
+    .breakpoint-debug-xs { @include element-hidden; }
+    .breakpoint-debug-sm { @include element-hidden; }
+    .breakpoint-debug-md { @include element-hidden; }
+    .breakpoint-debug-lg { @include element-displayed; }
+    .breakpoint-debug-xl { @include element-hidden; }
+    .breakpoint-debug-xxl { @include element-hidden; }
+  }
+}
+
+@include media-breakpoint-only(xl) {
+  .breakpoint-debug {
+    .breakpoint-debug-xs { @include element-hidden; }
+    .breakpoint-debug-sm { @include element-hidden; }
+    .breakpoint-debug-md { @include element-hidden; }
+    .breakpoint-debug-lg { @include element-hidden; }
+    .breakpoint-debug-xl { @include element-displayed; }
+    .breakpoint-debug-xxl { @include element-hidden; }
+  }
+}
+
+@include media-breakpoint-only(xxl) {
+  .breakpoint-debug {
+    .breakpoint-debug-xs { @include element-hidden; }
+    .breakpoint-debug-sm { @include element-hidden; }
+    .breakpoint-debug-md { @include element-hidden; }
+    .breakpoint-debug-lg { @include element-hidden; }
+    .breakpoint-debug-xl { @include element-hidden; }
+    .breakpoint-debug-xxl { @include element-displayed; }
+  }
+}
+

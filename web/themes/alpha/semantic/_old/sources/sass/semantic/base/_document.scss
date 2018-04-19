@@ -1,0 +1,8 @@
+html {
+  font-size: $font-size-base !important;
+}
+
+body {
+  font-size: rem($font-size-base) !important;
+  line-height: $line-height-base !important;
+}

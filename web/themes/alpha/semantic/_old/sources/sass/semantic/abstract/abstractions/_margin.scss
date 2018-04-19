@@ -1,0 +1,89 @@
+@mixin margin($top: null, $right: null, $bottom: null, $left: null) {
+  @if (type_of($top) == number) {
+    margin-top: $top;
+  }
+  @if (type_of($right) == number) {
+    margin-right: $right;
+  }
+  @if (type_of($bottom) == number) {
+    margin-bottom: $bottom;
+  }
+  @if (type_of($left) == number) {
+    margin-left: $left;
+  }
+}
+
+@mixin padding($top: null, $right: null, $bottom: null, $left: null) {
+  @if (type_of($top) == number) {
+    padding-top: $top;
+  }
+  @if (type_of($right) == number) {
+    padding-right: $right;
+  }
+  @if (type_of($bottom) == number) {
+    padding-bottom: $bottom;
+  }
+  @if (type_of($left) == number) {
+    padding-left: $left;
+  }
+}
+
+@mixin margin-populate($list: null) {
+  @if (type_of($list) == 'map') {
+    @each $name, $margin in $list {
+      $vertical: rem(nth($margin, 1));
+      $horizontal: rem(nth($margin, 2));
+      .m#{$name} {
+        @include margin($vertical, $horizontal, $vertical, $horizontal);
+      }
+      .mv#{$name} {
+        @include margin($vertical, null, $vertical, null);
+      }
+      .mh#{$name} {
+        @include margin(null, $horizontal, null, $horizontal);
+      }
+      .mt#{$name} {
+        @include margin($vertical, null, null, null);
+      }
+      .mb#{$name} {
+        @include margin(null, null, $vertical, null);
+      }
+      .mr#{$name} {
+        @include margin(null, $horizontal, null, null);
+      }
+      .ml#{$name} {
+        @include margin(null, null, null, $horizontal);
+      }
+    }
+  }
+}
+
+@mixin padding-populate($list: null) {
+  @if (type_of($list) == 'map') {
+    @each $name, $padding in $list {
+      $vertical: rem(nth($padding, 1));
+      $horizontal: rem(nth($padding, 2));
+      .p#{$name} {
+        @include padding($vertical, $horizontal, $vertical, $horizontal);
+      }
+      .pv#{$name} {
+        @include padding($vertical, null, $vertical, null);
+      }
+      .ph#{$name} {
+        @include padding(null, $horizontal, null, $horizontal);
+      }
+      .pt#{$name} {
+        @include padding($vertical, null, null, null);
+      }
+      .pb#{$name} {
+        @include padding(null, null, $vertical, null);
+      }
+      .pr#{$name} {
+        @include padding(null, $horizontal, null, null);
+      }
+      .pl#{$name} {
+        @include padding(null, null, null, $horizontal);
+      }
+    }
+  }
+}

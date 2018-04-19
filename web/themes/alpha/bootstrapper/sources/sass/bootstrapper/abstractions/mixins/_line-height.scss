@@ -1,0 +1,25 @@
+@mixin line-height($line-height) {
+  line-height: percent($line-height);
+}
+
+@mixin line-height-populate($map, $is-important: false) {
+  $important: null;
+  @if ($is-important) {
+    $important: !important;
+  }
+  @each $line-height in $map {
+    .lh-#{$line-height} {
+      line-height: percent($line-height / 100) $important;
+    }
+  }
+}
+
+@mixin line-height-tag-populate($map:(), $tags:(), $context: 'text') {
+  @each $line-height in $map {
+    .lh-#{$context}-#{$line-height} {
+      #{$tags} {
+        line-height: percent($line-height / 100);
+      }
+    }
+  }
+}

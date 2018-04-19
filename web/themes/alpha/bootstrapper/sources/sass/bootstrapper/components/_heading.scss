@@ -1,0 +1,14 @@
+h1, h2, h3, h4, h5, h6 {
+  a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: inherit;
+  }
+}
+
+@include font-size-populate($font-size-heading-map, 'xs');
+@include font-size-populate($font-size-heading-map, 'sm');
+@include font-size-populate($font-size-heading-map, 'md');
+@include font-size-populate($font-size-heading-map, 'lg');
+@include font-size-populate($font-size-heading-map, 'xl');
+@include font-size-populate($font-size-heading-map, 'xxl');

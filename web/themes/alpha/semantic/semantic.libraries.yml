@@ -1,0 +1,45 @@
+semantic.ui:
+  css:
+    base:
+      assets/vendor/semantic-ui/dist/semantic.css: { weight: 10 }
+  js:
+    assets/vendor/semantic-ui/dist/semantic.js: {}
+  dependencies:
+    - core/jquery
+
+semantic.css:
+  css:
+    base:
+      assets/css/base.css: { weight: 10 }
+    layout:
+      assets/css/layout.css: { weight: 10 }
+    component:
+      assets/css/components.css: { weight: 10 }
+    state:
+      assets/css/state.css: { weight: 10 }
+    theme:
+      assets/css/theme.css: { weight: 10 }
+
+semantic.js:
+  js:
+    assets/js/semantic.js: {}
+  dependencies:
+    - core/jquery
+
+semantic.file_input:
+  js:
+    assets/js/file-input.js: {}
+  dependencies:
+    - core/jquery
+
+semantic.select:
+  js:
+    assets/js/select.js: {}
+  dependencies:
+    - core/jquery
+
+semantic.messages:
+  js:
+    assets/js/messages.js: {}
+  dependencies:
+    - core/jquery

@@ -1,0 +1,71 @@
+uuid: 4200d91e-e62a-4468-9c30-ab9d8796af03
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.visiolms_lesson.video.field_video_link
+    - visiolms_lesson.type.video
+  module:
+    - text
+    - user
+    - video_embed_field
+id: visiolms_lesson.video.default
+targetEntityType: visiolms_lesson
+bundle: video
+mode: default
+content:
+  changed:
+    label: hidden
+    type: timestamp
+    weight: 20
+    region: content
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+  created:
+    label: hidden
+    type: timestamp
+    weight: 10
+    region: content
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+  field_video_link:
+    weight: 21
+    label: above
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_field_video
+    region: content
+  name:
+    label: hidden
+    type: string
+    weight: -5
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  summary:
+    label: inline
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  uid:
+    label: inline
+    type: author
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

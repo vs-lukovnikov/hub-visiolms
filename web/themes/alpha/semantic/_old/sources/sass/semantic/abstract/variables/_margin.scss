@@ -1,0 +1,25 @@
+// Margins map.
+$margin-map: (
+  "10px": (10px, 10px),
+  "0": (0, 0),
+  "05": (rhythm(0.5), rhythm(0.5)),
+  "1": (rhythm(1), rhythm(1)),
+  "2": (rhythm(2), rhythm(2)),
+  "3": (rhythm(3), rhythm(3)),
+  "4": (rhythm(4), rhythm(4)),
+  "5": (rhythm(5), rhythm(5)),
+  "10": (rhythm(10), rhythm(10)),
+);
+
+// Paddings map.
+$padding-map: (
+  "10px": (10px, 10px),
+  "0": (0, 0),
+  "05": (rhythm(0.5), rhythm(0.5)),
+  "1": (rhythm(1), rhythm(1)),
+  "2": (rhythm(2), rhythm(2)),
+  "3": (rhythm(3), rhythm(3)),
+  "4": (rhythm(4), rhythm(4)),
+  "5": (rhythm(5), rhythm(5)),
+  "10": (rhythm(10), rhythm(10)),
+);

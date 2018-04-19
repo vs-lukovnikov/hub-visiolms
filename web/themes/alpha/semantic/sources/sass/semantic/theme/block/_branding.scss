@@ -1,0 +1,19 @@
+.block--system-branding-block {
+  .site-logo img {
+    max-width: 3.75rem;
+    max-height: 3.75rem;
+  }
+  .site-details-wrapper {
+    display: inline-block;
+    margin-left: 1rem;
+    vertical-align: top;
+    margin-top: 0.25rem;
+    .site-name {
+      font-size: 1.5rem;
+    }
+    .site-slogan {
+      margin-top: 1rem;
+      font-size: 0.85rem;
+    }
+  }
+}

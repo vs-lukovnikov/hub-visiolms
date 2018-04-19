@@ -1,0 +1,48 @@
+@mixin margin($top: null, $right: null, $bottom: null, $left: null, $is-important: false) {
+  $important: null;
+  @if ($is-important) {
+    $important: !important;
+  }
+  @if (type_of($top) == number) {
+    margin-top: $top $important;
+  }
+  @if (type_of($right) == number) {
+    margin-right: $right $important;
+  }
+  @if (type_of($bottom) == number) {
+    margin-bottom: $bottom $important;
+  }
+  @if (type_of($left) == number) {
+    margin-left: $left $important;
+  }
+}
+
+@mixin margin-populate($list: null) {
+  @if (type_of($list) == 'map') {
+    @each $name, $margin in $list {
+      $vertical: nth($margin, 1);
+      $horizontal: nth($margin, 2);
+      .m-#{$name} {
+        @include margin($vertical, $horizontal, $vertical, $horizontal, true);
+      }
+      .my-#{$name} {
+        @include margin($vertical, null, $vertical, null, true);
+      }
+      .mx-#{$name} {
+        @include margin(null, $horizontal, null, $horizontal, true);
+      }
+      .mt-#{$name} {
+        @include margin($vertical, null, null, null, true);
+      }
+      .mb-#{$name} {
+        @include margin(null, null, $vertical, null, true);
+      }
+      .mr-#{$name} {
+        @include margin(null, $horizontal, null, null, true);
+      }
+      .ml-#{$name} {
+        @include margin(null, null, null, $horizontal, true);
+      }
+    }
+  }
+}

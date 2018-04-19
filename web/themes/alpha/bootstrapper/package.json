@@ -1,0 +1,48 @@
+{
+    "name": "bootstrapper",
+    "description": "Base Drupal 8 theme based on Bootsrap 4.",
+    "private": true,
+    "version": "1.0.0",
+    "dependencies": {
+        "bootstrap": "^4.0.0",
+        "popper.js": "^1.13.0"
+    },
+    "devDependencies": {
+        "autoprefixer": "latest",
+        "breakpoint-sass": "latest",
+        "caniuse-db": "latest",
+        "css-mqpacker": "latest",
+        "cssnano": "latest",
+        "doiuse": "latest",
+        "grunt": "latest",
+        "grunt-accessibility": "latest",
+        "grunt-contrib-clean": "latest",
+        "grunt-contrib-copy": "latest",
+        "grunt-contrib-imagemin": "latest",
+        "grunt-contrib-jshint": "latest",
+        "grunt-contrib-uglify": "latest",
+        "grunt-contrib-watch": "latest",
+        "grunt-newer": "latest",
+        "grunt-notify": "latest",
+        "grunt-postcss": "latest",
+        "grunt-sass": "^2.1.0",
+        "grunt-shell": "latest",
+        "hexdigest": "latest",
+        "jit-grunt": "latest",
+        "load-grunt-config": "latest",
+        "node-normalize-scss": "latest",
+        "node-sass": "latest",
+        "node-sass-asset-functions": "latest",
+        "node-sass-glob-once": "latest",
+        "postcss-pxtorem": "latest",
+        "postcss-reporter": "latest",
+        "postcss-safe-parser": "latest",
+        "postcss-sorting": "latest",
+        "postcss-will-change": "latest",
+        "sass-toolkit": "latest",
+        "time-grunt": "latest"
+    },
+    "engines": {
+        "node": ">=8.0.0"
+    }
+}

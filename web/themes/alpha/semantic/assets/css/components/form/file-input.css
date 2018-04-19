@@ -1,0 +1,15 @@
+/* line 2, sources/sass/semantic/components/form/file-input.scss */
+.input-file input[type="file"] {
+  display: none;
+}
+
+/* line 7, sources/sass/semantic/components/form/file-input.scss */
+.button-upload-file {
+  display: none !important;
+}
+
+/* line 11, sources/sass/semantic/components/form/file-input.scss */
+.button-remove-file {
+  margin-left: 0.5rem !important;
+}
+/*# sourceMappingURL=file-input.css.map */
